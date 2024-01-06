@@ -1,0 +1,66 @@
+{% extends "blog/admin.html" %}
+{% load static %}
+
+{% block content %}
+
+{% include "blog/admin/paginator.html" with datas=posts %}
+{% if messages %}
+{% for message in messages %}
+<div class="alert alert-success">
+    {{ message }}
+</div>
+{% endfor %}
+{% endif %}
+<div class="d-flex my-2 justify-content-end">
+    <a href="{% url post %}" class="btn btn-success">Create Post</a>
+</div>
+<table class="table table-bordered">
+    <tbody>
+
+        <tr>
+            <td scope='col'> Title: </td>
+            <td scope='col'>{{ post.title}}</td>
+        </tr>
+        <tr>
+            <td scope='col'> Slug: </td>
+            <td scope='col'>{{ post.slug}}</td>
+        </tr>
+        <tr>
+            <td scope='col'> Content: </td>
+            <td scope='col'>{{ post.content}}</td>
+        </tr>
+        <tr>
+            <td scope='col'> Author: </td>
+            <td scope='col'>{{ post.author}}</td>
+        </tr>
+        <tr>
+            <td scope='col'> Category: </td>
+            <td scope='col'>{{ post.category}}</td>
+        </tr>
+        <tr>
+            <td scope='col'> Is_published: </td>
+            <td scope='col'>{{ post.is_published}}</td>
+        </tr>
+        <tr>
+            <td scope='col'> Tags: </td>
+            <td scope='col'>{{ post.tags}}</td>
+        </tr>
+        <tr>
+            <td scope='col'> Image: </td>
+            <td scope='col'>{{ post.image}}</td>
+        </tr>
+        <tr>
+            <td scope='col'> Created_at: </td>
+            <td scope='col'>{{ post.created_at}}</td>
+        </tr>
+        <tr>
+            <td scope='col'> Updated_at: </td>
+            <td scope='col'>{{ post.updated_at}}</td>
+        </tr>
+
+    </tbody>
+</table>
+{% include "blog/components/paginator.html" with datas=posts %}
+
+
+{% endblock %}

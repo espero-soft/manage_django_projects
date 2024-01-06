@@ -1,0 +1,37 @@
+{% extends "blog/admin.html" %}
+{% load static %}
+
+{% block content %}
+
+{% include "blog/components/paginator.html" with datas=posts %}
+{% if messages %}
+    {% for message in messages %}
+        <div class="alert alert-success">
+            {{ message }}
+        </div>
+    {% endfor %}
+{% endif %}
+<div class="d-flex my-2 justify-content-end">
+    <a href="{% url 'dashboard_post_new' %}" class="btn btn-success">Create Post</a>
+</div>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            {{table_header}}
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        {% for post in posts %}
+            {{table_content}}
+        {% endfor %}
+
+    </tbody>
+</table>
+{% include "blog/components/paginator.html" with datas=posts %}
+
+
+{% endblock %}
+

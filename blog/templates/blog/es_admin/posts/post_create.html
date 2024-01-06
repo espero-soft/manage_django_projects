@@ -1,0 +1,21 @@
+{% extends "blog/admin.html" %}
+{% load static %}
+
+{% block content %}
+
+{% if messages %}
+{% for message in messages %}
+<div class="alert alert-success">
+    {{ message }}
+</div>
+{% endfor %}
+{% endif %}
+
+<div class="d-flex my-2 justify-content-end">
+    <a href="{% url post %}" class="btn btn-success">Create Post</a>
+</div>
+
+{% include "post_form.html" with post=post %}
+
+
+{% endblock %}
