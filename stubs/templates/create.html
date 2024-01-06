@@ -1,9 +1,0 @@
-{% extends 'admin.html' %}
-
-{% block content %}
-<div>
-        <h3>Create {{entity_name}}</h3>
-        <a href="{% url '{{return_link}}' %}" class="btn btn-success my-1">Home</a>
-        {% include "{{entity_form_link}}" %}
-</div>
-{% endblock %}
