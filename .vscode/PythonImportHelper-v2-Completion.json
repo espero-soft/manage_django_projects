@@ -9,51 +9,37 @@
         "documentation": {}
     },
     {
-        "label": "generate_model",
-        "importPath": "model_generator",
-        "description": "model_generator",
+        "label": "subprocess",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "model_generator",
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
         "documentation": {}
     },
     {
-        "label": "generate_templates",
-        "importPath": "view_generator",
-        "description": "view_generator",
+        "label": "pathlib",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "view_generator",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "detail": "pathlib",
         "documentation": {}
     },
     {
-        "label": "generate_view",
-        "importPath": "view_generator",
-        "description": "view_generator",
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
         "isExtraImport": true,
-        "detail": "view_generator",
+        "detail": "pathlib",
         "documentation": {}
     },
     {
-        "label": "generate_form",
-        "importPath": "form_generator",
-        "description": "form_generator",
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
         "isExtraImport": true,
-        "detail": "form_generator",
-        "documentation": {}
-    },
-    {
-        "label": "parse_model_fields",
-        "importPath": "form_generator",
-        "description": "form_generator",
-        "isExtraImport": true,
-        "detail": "form_generator",
-        "documentation": {}
-    },
-    {
-        "label": "forms",
-        "importPath": "django",
-        "description": "django",
-        "isExtraImport": true,
-        "detail": "django",
+        "detail": "pathlib",
         "documentation": {}
     },
     {
@@ -78,6 +64,495 @@
         "description": "pathlib",
         "isExtraImport": true,
         "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "Carrier",
+        "importPath": "'''+app_name+'''.models",
+        "description": "'''+app_name+'''.models",
+        "isExtraImport": true,
+        "detail": "'''+app_name+'''.models",
+        "documentation": {}
+    },
+    {
+        "label": "Setting",
+        "importPath": "'''+app_name+'''.models",
+        "description": "'''+app_name+'''.models",
+        "isExtraImport": true,
+        "detail": "'''+app_name+'''.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "'''+app_name+'''.models",
+        "description": "'''+app_name+'''.models",
+        "isExtraImport": true,
+        "detail": "'''+app_name+'''.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "'''+app_name+'''.models",
+        "description": "'''+app_name+'''.models",
+        "isExtraImport": true,
+        "detail": "'''+app_name+'''.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "'''+app_name+'''.models",
+        "description": "'''+app_name+'''.models",
+        "isExtraImport": true,
+        "detail": "'''+app_name+'''.models",
+        "documentation": {}
+    },
+    {
+        "label": "Method",
+        "importPath": "'''+app_name+'''.models",
+        "description": "'''+app_name+'''.models",
+        "isExtraImport": true,
+        "detail": "'''+app_name+'''.models",
+        "documentation": {}
+    },
+    {
+        "label": "Carrier",
+        "importPath": "'''+app_name+'''.models",
+        "description": "'''+app_name+'''.models",
+        "isExtraImport": true,
+        "detail": "'''+app_name+'''.models",
+        "documentation": {}
+    },
+    {
+        "label": "Setting",
+        "importPath": "'''+app_name+'''.models",
+        "description": "'''+app_name+'''.models",
+        "isExtraImport": true,
+        "detail": "'''+app_name+'''.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "'''+app_name+'''.models",
+        "description": "'''+app_name+'''.models",
+        "isExtraImport": true,
+        "detail": "'''+app_name+'''.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "'''+app_name+'''.models",
+        "description": "'''+app_name+'''.models",
+        "isExtraImport": true,
+        "detail": "'''+app_name+'''.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "'''+app_name+'''.models",
+        "description": "'''+app_name+'''.models",
+        "isExtraImport": true,
+        "detail": "'''+app_name+'''.models",
+        "documentation": {}
+    },
+    {
+        "label": "Method",
+        "importPath": "'''+app_name+'''.models",
+        "description": "'''+app_name+'''.models",
+        "isExtraImport": true,
+        "detail": "'''+app_name+'''.models",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
         "documentation": {}
     },
     {
@@ -90,12 +565,45 @@
         "documentation": {}
     },
     {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "inflect",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "inflect",
+        "description": "inflect",
+        "detail": "inflect",
+        "documentation": {}
+    },
+    {
         "label": "questionary",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "questionary",
         "description": "questionary",
         "detail": "questionary",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
         "documentation": {}
     },
     {
@@ -123,219 +631,1217 @@
         "documentation": {}
     },
     {
-        "label": "inflect",
-        "kind": 6,
+        "label": "open",
+        "importPath": "io",
+        "description": "io",
         "isExtraImport": true,
-        "importPath": "inflect",
-        "description": "inflect",
-        "detail": "inflect",
+        "detail": "io",
         "documentation": {}
     },
     {
-        "label": "make_entity",
+        "label": "print_yellow",
         "kind": 2,
-        "importPath": "cli",
-        "description": "cli",
-        "peekOfCode": "def make_entity(args):\n    print(f\"Executing make:entity command for app: {args.app_name} and model: {args.model_name}.\")\n    # generate_entity()\n    generate_model(app_name=args.app_name, model_name=args.model_name)\n    generate_view(app_name=args.app_name, model_name=args.model_name)\n    generate_templates(model_name=args.model_name, app_name=args.app_name)\ndef make_form(args):\n    print(f\"Executing make:form command for app: {args.app_name} and model: {args.model_name}\")\n    generate_form(app_name=args.app_name, model_name=args.model_name)\ndef make_view(args):",
-        "detail": "cli",
+        "importPath": "build.lib.package.create_django_project",
+        "description": "build.lib.package.create_django_project",
+        "peekOfCode": "def print_yellow(text):\n    print(Fore.YELLOW + text + Style.RESET_ALL)\ndef check_django_installation():\n    try:\n        # Vérifier l'installation de Django en tentant d'importer le module\n        import django\n        return True\n    except ImportError:\n        return False\ndef install_django():",
+        "detail": "build.lib.package.create_django_project",
         "documentation": {}
     },
     {
-        "label": "make_form",
+        "label": "check_django_installation",
         "kind": 2,
-        "importPath": "cli",
-        "description": "cli",
-        "peekOfCode": "def make_form(args):\n    print(f\"Executing make:form command for app: {args.app_name} and model: {args.model_name}\")\n    generate_form(app_name=args.app_name, model_name=args.model_name)\ndef make_view(args):\n    print(f\"Executing make:model command for app: {args.app_name} and model: {args.model_name}\")\n    generate_view(app_name=args.app_name, model_name=args.model_name)\n    generate_templates(model_name=args.model_name, app_name=args.app_name)\ndef make_model(args):\n    print(f\"Executing make:model command for app: {args.app_name} and model: {args.model_name}\")\n    generate_model(app_name=args.app_name, model_name=args.model_name)",
-        "detail": "cli",
+        "importPath": "build.lib.package.create_django_project",
+        "description": "build.lib.package.create_django_project",
+        "peekOfCode": "def check_django_installation():\n    try:\n        # Vérifier l'installation de Django en tentant d'importer le module\n        import django\n        return True\n    except ImportError:\n        return False\ndef install_django():\n    try:\n        subprocess.run([\"pip\", \"install\", \"django\"], check=True)",
+        "detail": "build.lib.package.create_django_project",
         "documentation": {}
     },
     {
-        "label": "make_view",
+        "label": "install_django",
         "kind": 2,
-        "importPath": "cli",
-        "description": "cli",
-        "peekOfCode": "def make_view(args):\n    print(f\"Executing make:model command for app: {args.app_name} and model: {args.model_name}\")\n    generate_view(app_name=args.app_name, model_name=args.model_name)\n    generate_templates(model_name=args.model_name, app_name=args.app_name)\ndef make_model(args):\n    print(f\"Executing make:model command for app: {args.app_name} and model: {args.model_name}\")\n    generate_model(app_name=args.app_name, model_name=args.model_name)\ndef make_entity_crud(args):\n    print(f\"Executing make:entity:crud command for app: {args.app_name} and model: {args.model_name}.\")\nif __name__ == \"__main__\":",
-        "detail": "cli",
+        "importPath": "build.lib.package.create_django_project",
+        "description": "build.lib.package.create_django_project",
+        "peekOfCode": "def install_django():\n    try:\n        subprocess.run([\"pip\", \"install\", \"django\"], check=True)\n        return True\n    except subprocess.CalledProcessError:\n        return False\ndef create_django_project(project_name):\n    # Vérifier si Django est installé, sinon l'installer\n    if not check_django_installation():\n        print_yellow(\"Django not found. Installing Django...\")",
+        "detail": "build.lib.package.create_django_project",
         "documentation": {}
     },
     {
-        "label": "make_model",
+        "label": "create_django_project",
         "kind": 2,
-        "importPath": "cli",
-        "description": "cli",
-        "peekOfCode": "def make_model(args):\n    print(f\"Executing make:model command for app: {args.app_name} and model: {args.model_name}\")\n    generate_model(app_name=args.app_name, model_name=args.model_name)\ndef make_entity_crud(args):\n    print(f\"Executing make:entity:crud command for app: {args.app_name} and model: {args.model_name}.\")\nif __name__ == \"__main__\":\n    parser = argparse.ArgumentParser(description=\"Custom CLI for performing tasks\")\n    subparsers = parser.add_subparsers()\n    entity_parser = subparsers.add_parser(\"make:entity\", help=\"Create an entity\")\n    entity_parser.add_argument(\"app_name\", help=\"Name of the app\")",
-        "detail": "cli",
+        "importPath": "build.lib.package.create_django_project",
+        "description": "build.lib.package.create_django_project",
+        "peekOfCode": "def create_django_project(project_name):\n    # Vérifier si Django est installé, sinon l'installer\n    if not check_django_installation():\n        print_yellow(\"Django not found. Installing Django...\")\n        if not install_django():\n            print_yellow(\"Failed to install Django. Aborting project creation.\")\n            return\n    try:\n        # Création du répertoire pour le projet\n        project_dir = Path.cwd() / project_name",
+        "detail": "build.lib.package.create_django_project",
         "documentation": {}
     },
     {
-        "label": "make_entity_crud",
+        "label": "main",
         "kind": 2,
-        "importPath": "cli",
-        "description": "cli",
-        "peekOfCode": "def make_entity_crud(args):\n    print(f\"Executing make:entity:crud command for app: {args.app_name} and model: {args.model_name}.\")\nif __name__ == \"__main__\":\n    parser = argparse.ArgumentParser(description=\"Custom CLI for performing tasks\")\n    subparsers = parser.add_subparsers()\n    entity_parser = subparsers.add_parser(\"make:entity\", help=\"Create an entity\")\n    entity_parser.add_argument(\"app_name\", help=\"Name of the app\")\n    entity_parser.add_argument(\"model_name\", help=\"Name of the model\")\n    entity_parser.set_defaults(func=make_entity)\n    form_parser = subparsers.add_parser(\"make:form\", help=\"Create a form\")",
-        "detail": "cli",
+        "importPath": "build.lib.package.create_django_project",
+        "description": "build.lib.package.create_django_project",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(description=\"Create a Django project\")\n    parser.add_argument(\"project_name\", help=\"Name of the Django project to create\")\n    args = parser.parse_args()\n    create_django_project(args.project_name)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "build.lib.package.create_django_project",
+        "documentation": {}
+    },
+    {
+        "label": "CartService",
+        "kind": 6,
+        "importPath": "build.lib.package.ecommerce_generator",
+        "description": "build.lib.package.ecommerce_generator",
+        "peekOfCode": "class CartService:\n    @staticmethod\n    def add_to_cart(request, product_id, quantity):\n        cart = request.session.get('cart', {})\n        product_id = str(product_id)\n        if product_id in cart:\n            cart[product_id] += quantity\n        else:\n            cart[product_id] = quantity\n        request.session['cart'] = cart",
+        "detail": "build.lib.package.ecommerce_generator",
+        "documentation": {}
+    },
+    {
+        "label": "WishService",
+        "kind": 6,
+        "importPath": "build.lib.package.ecommerce_generator",
+        "description": "build.lib.package.ecommerce_generator",
+        "peekOfCode": "class WishService:\n    @staticmethod\n    def add_product_to_wish(request, product_id):\n        wish_products = request.session.get('wish', [])\n        if product_id not in wish_products:\n            wish_products.append(product_id)\n            request.session['wish'] = wish_products\n    @staticmethod\n    def remove_product_from_wish(request, product_id):\n        wish_products = request.session.get('wish', [])",
+        "detail": "build.lib.package.ecommerce_generator",
+        "documentation": {}
+    },
+    {
+        "label": "CompareService",
+        "kind": 6,
+        "importPath": "build.lib.package.ecommerce_generator",
+        "description": "build.lib.package.ecommerce_generator",
+        "peekOfCode": "class CompareService:\n    @staticmethod\n    def add_product_to_compare(request, product_id):\n        compare_products = request.session.get('compare', [])\n        if product_id not in compare_products:\n            compare_products.append(product_id)\n            request.session['compare'] = compare_products\n    @staticmethod\n    def remove_product_from_compare(request, product_id):\n        compare_products = request.session.get('compare', [])",
+        "detail": "build.lib.package.ecommerce_generator",
+        "documentation": {}
+    },
+    {
+        "label": "StripeService",
+        "kind": 6,
+        "importPath": "build.lib.package.ecommerce_generator",
+        "description": "build.lib.package.ecommerce_generator",
+        "peekOfCode": "class StripeService:\n    def __init__(self):\n        # Vérifie si la méthode Stripe est disponible\n        self.method = Method.objects.filter(name='Stripe').first()\n    # Implémentez ici la logique de votre service\n    def get_public_key(self):\n        if self.method:\n            return self.method.prod_public_key if settings.DEBUG else self.method.test_public_key\n        return None  # Gérer le cas où la méthode n'est pas trouvée en base de données\n    def get_private_key(self):",
+        "detail": "build.lib.package.ecommerce_generator",
+        "documentation": {}
+    },
+    {
+        "label": "print_yellow",
+        "kind": 2,
+        "importPath": "build.lib.package.ecommerce_generator",
+        "description": "build.lib.package.ecommerce_generator",
+        "peekOfCode": "def print_yellow(text):\n    print(Fore.YELLOW + text + Style.RESET_ALL)\ndef getCart(app_name):\n    return '''\nfrom django.contrib import messages\nfrom '''+app_name+'''.models import Carrier, Setting, Product  # Importez vos modèles ici\nclass CartService:\n    @staticmethod\n    def add_to_cart(request, product_id, quantity):\n        cart = request.session.get('cart', {})",
+        "detail": "build.lib.package.ecommerce_generator",
+        "documentation": {}
+    },
+    {
+        "label": "getCart",
+        "kind": 2,
+        "importPath": "build.lib.package.ecommerce_generator",
+        "description": "build.lib.package.ecommerce_generator",
+        "peekOfCode": "def getCart(app_name):\n    return '''\nfrom django.contrib import messages\nfrom '''+app_name+'''.models import Carrier, Setting, Product  # Importez vos modèles ici\nclass CartService:\n    @staticmethod\n    def add_to_cart(request, product_id, quantity):\n        cart = request.session.get('cart', {})\n        product_id = str(product_id)\n        if product_id in cart:",
+        "detail": "build.lib.package.ecommerce_generator",
+        "documentation": {}
+    },
+    {
+        "label": "getWishlist",
+        "kind": 2,
+        "importPath": "build.lib.package.ecommerce_generator",
+        "description": "build.lib.package.ecommerce_generator",
+        "peekOfCode": "def getWishlist(app_name):\n    return '''\nfrom '''+app_name+'''.models import Product  # Importez votre modèle Product ici\nclass WishService:\n    @staticmethod\n    def add_product_to_wish(request, product_id):\n        wish_products = request.session.get('wish', [])\n        if product_id not in wish_products:\n            wish_products.append(product_id)\n            request.session['wish'] = wish_products",
+        "detail": "build.lib.package.ecommerce_generator",
+        "documentation": {}
+    },
+    {
+        "label": "getCompare",
+        "kind": 2,
+        "importPath": "build.lib.package.ecommerce_generator",
+        "description": "build.lib.package.ecommerce_generator",
+        "peekOfCode": "def getCompare(app_name):\n    return '''\nfrom '''+app_name+'''.models import Product  # Importez votre modèle Product ici\nclass CompareService:\n    @staticmethod\n    def add_product_to_compare(request, product_id):\n        compare_products = request.session.get('compare', [])\n        if product_id not in compare_products:\n            compare_products.append(product_id)\n            request.session['compare'] = compare_products",
+        "detail": "build.lib.package.ecommerce_generator",
+        "documentation": {}
+    },
+    {
+        "label": "getStripe",
+        "kind": 2,
+        "importPath": "build.lib.package.ecommerce_generator",
+        "description": "build.lib.package.ecommerce_generator",
+        "peekOfCode": "def getStripe(app_name):\n    return '''\nfrom '''+app_name+'''.models import Method\nfrom django.conf import settings\nclass StripeService:\n    def __init__(self):\n        # Vérifie si la méthode Stripe est disponible\n        self.method = Method.objects.filter(name='Stripe').first()\n    # Implémentez ici la logique de votre service\n    def get_public_key(self):",
+        "detail": "build.lib.package.ecommerce_generator",
+        "documentation": {}
+    },
+    {
+        "label": "generate_django_services",
+        "kind": 2,
+        "importPath": "build.lib.package.ecommerce_generator",
+        "description": "build.lib.package.ecommerce_generator",
+        "peekOfCode": "def generate_django_services(app_name, service_name):\n    services = {\n        'cart': getCart,\n        'wish': getWishlist,\n        'compare': getCompare,\n        'payment': getStripe,\n    }\n    data_path = f\"{app_name}/services/\"\n    data_file_path = f\"{data_path}{service_name}_service.py\"\n    if not os.path.exists(data_path):",
+        "detail": "build.lib.package.ecommerce_generator",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "build.lib.package.ecommerce_generator",
+        "description": "build.lib.package.ecommerce_generator",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(description=\"Generate a Django Services\")\n    parser.add_argument(\"app_name\", help=\"Name of the Django app to create\")\n    parser.add_argument(\"service_name\", help=\"Name of the Django service to create\")\n    args = parser.parse_args()\n    generate_django_services(args.app_name, args.service_name)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "build.lib.package.ecommerce_generator",
+        "documentation": {}
+    },
+    {
+        "label": "print_yellow",
+        "kind": 2,
+        "importPath": "build.lib.package.form_generator",
+        "description": "build.lib.package.form_generator",
+        "peekOfCode": "def print_yellow(text):\n    print(Fore.YELLOW + text + Style.RESET_ALL)\nfield_widgets = {\n    'DateField': \"forms.DateInput(attrs={'class': 'form-control datepicker'})\",\n    'DateTimeField': \"forms.DateTimeInput(attrs={'class': 'form-control datetimepicker'})\",\n    'CharField': \"forms.TextInput(attrs={'class': 'form-control custom-text-input'})\",\n    'EmailField': \"forms.EmailInput(attrs={'class': 'form-control custom-email-input'})\",\n    'BooleanField': \"forms.CheckboxInput(attrs={'class': 'form-control custom-checkbox'})\",\n    'IntegerField': \"forms.NumberInput(attrs={'class': 'form-control custom-number-input'})\",\n    'FloatField': \"forms.NumberInput(attrs={'class': 'form-control custom-float-input'})\",",
+        "detail": "build.lib.package.form_generator",
         "documentation": {}
     },
     {
         "label": "parse_model_fields",
         "kind": 2,
-        "importPath": "form_generator",
-        "description": "form_generator",
+        "importPath": "build.lib.package.form_generator",
+        "description": "build.lib.package.form_generator",
         "peekOfCode": "def parse_model_fields(file_path):\n    field_pattern = re.compile(r'^\\s*(\\w+)\\s*=\\s*models\\.(\\w+)\\(', re.MULTILINE)\n    fields = {}\n    with open(file_path, 'r') as file:\n        content = file.read()\n        matches = field_pattern.finditer(content)\n        for match in matches:\n            field_name = match.group(1)\n            field_type = match.group(2)\n            fields[field_name] = field_type",
-        "detail": "form_generator",
+        "detail": "build.lib.package.form_generator",
         "documentation": {}
     },
     {
         "label": "generate_form",
         "kind": 2,
-        "importPath": "form_generator",
-        "description": "form_generator",
+        "importPath": "build.lib.package.form_generator",
+        "description": "build.lib.package.form_generator",
         "peekOfCode": "def generate_form(app_name, model_name):\n    # Chemin du dossier des formulaires dans l'application spécifiée\n    form_folder = Path(f\"{app_name}/forms\")\n    if not form_folder.exists():\n        form_folder.mkdir(parents=True)\n    # Nom du fichier pour le formulaire\n    form_filename = form_folder / f\"{model_name}Form.py\"\n    if form_filename.exists():\n        user_input = input(f\"Le fichier '{form_filename}' existe déjà. Voulez-vous l'écraser ? (O/n): \")\n        if user_input.lower() != 'o':",
-        "detail": "form_generator",
+        "detail": "build.lib.package.form_generator",
         "documentation": {}
     },
     {
         "label": "field_widgets",
         "kind": 5,
-        "importPath": "form_generator",
-        "description": "form_generator",
+        "importPath": "build.lib.package.form_generator",
+        "description": "build.lib.package.form_generator",
         "peekOfCode": "field_widgets = {\n    'DateField': \"forms.DateInput(attrs={'class': 'form-control datepicker'})\",\n    'DateTimeField': \"forms.DateTimeInput(attrs={'class': 'form-control datetimepicker'})\",\n    'CharField': \"forms.TextInput(attrs={'class': 'form-control custom-text-input'})\",\n    'EmailField': \"forms.EmailInput(attrs={'class': 'form-control custom-email-input'})\",\n    'BooleanField': \"forms.CheckboxInput(attrs={'class': 'form-control custom-checkbox'})\",\n    'IntegerField': \"forms.NumberInput(attrs={'class': 'form-control custom-number-input'})\",\n    'FloatField': \"forms.NumberInput(attrs={'class': 'form-control custom-float-input'})\",\n    'URLField': \"forms.URLInput(attrs={'class': 'form-control custom-url-input'})\",\n    'FileField': \"forms.ClearableFileInput(attrs={'class': 'form-control custom-file-input'})\",",
-        "detail": "form_generator",
+        "detail": "build.lib.package.form_generator",
         "documentation": {}
     },
     {
-        "label": "is_valid_model_name",
+        "label": "print_yellow",
         "kind": 2,
-        "importPath": "model_generator",
-        "description": "model_generator",
-        "peekOfCode": "def is_valid_model_name(name):\n    return bool(re.match(r'^[a-zA-Z][_a-zA-Z0-9]*$', name))\ndef parse_model_fields(file_path):\n    field_pattern = re.compile(r'^\\s*(\\w+)\\s*=\\s*models\\.(\\w+)\\(', re.MULTILINE)\n    fields = {}\n    with open(file_path, 'r') as file:\n        content = file.read()\n        matches = field_pattern.finditer(content)\n        for match in matches:\n            field_name = match.group(1)",
-        "detail": "model_generator",
+        "importPath": "build.lib.package.generate_django_app",
+        "description": "build.lib.package.generate_django_app",
+        "peekOfCode": "def print_yellow(text):\n    print(Fore.YELLOW + text + Style.RESET_ALL)\ndef generate_django_app(app_name):\n    try:\n        # Créer l'application Django en utilisant django-admin\n        subprocess.run([\"django-admin\", \"startapp\", app_name], check=True)\n        print_yellow(f\"Django app '{app_name}' created successfully!\")\n        # Supprimer le fichier models.py\n        models_file = Path.cwd() / app_name / \"models.py\"\n        models_file.unlink()",
+        "detail": "build.lib.package.generate_django_app",
         "documentation": {}
     },
     {
-        "label": "parse_model_fields",
+        "label": "generate_django_app",
         "kind": 2,
-        "importPath": "model_generator",
-        "description": "model_generator",
-        "peekOfCode": "def parse_model_fields(file_path):\n    field_pattern = re.compile(r'^\\s*(\\w+)\\s*=\\s*models\\.(\\w+)\\(', re.MULTILINE)\n    fields = {}\n    with open(file_path, 'r') as file:\n        content = file.read()\n        matches = field_pattern.finditer(content)\n        for match in matches:\n            field_name = match.group(1)\n            field_type = match.group(2)\n            fields[field_name] = field_type",
-        "detail": "model_generator",
+        "importPath": "build.lib.package.generate_django_app",
+        "description": "build.lib.package.generate_django_app",
+        "peekOfCode": "def generate_django_app(app_name):\n    try:\n        # Créer l'application Django en utilisant django-admin\n        subprocess.run([\"django-admin\", \"startapp\", app_name], check=True)\n        print_yellow(f\"Django app '{app_name}' created successfully!\")\n        # Supprimer le fichier models.py\n        models_file = Path.cwd() / app_name / \"models.py\"\n        models_file.unlink()\n        views_file = Path.cwd() / app_name / \"views.py\"\n        views_file.unlink()",
+        "detail": "build.lib.package.generate_django_app",
         "documentation": {}
     },
     {
-        "label": "generate_model",
+        "label": "main",
         "kind": 2,
-        "importPath": "model_generator",
-        "description": "model_generator",
-        "peekOfCode": "def generate_model(app_name, model_name = False):\n    # model_name = \"\"\n    fields = []\n    if not model_name:\n        while True:\n            model_name = questionary.text(\"Nom du modèle :\").ask()\n            if not model_name:\n                print(\"Le nom du modèle ne peut pas être vide. Veuillez saisir un nom valide.\")\n            elif not is_valid_model_name(model_name):\n                print(\"Le nom du modèle n'est pas valide. Veuillez utiliser un nom de classe Python valide.\")",
-        "detail": "model_generator",
-        "documentation": {}
-    },
-    {
-        "label": "field_choices",
-        "kind": 5,
-        "importPath": "model_generator",
-        "description": "model_generator",
-        "peekOfCode": "field_choices = {\n    \"string\": 'models.CharField',\n    \"integer\": 'models.IntegerField',\n    \"text\": 'models.TextField',\n    \"boolean\": \"models.BooleanField\",\n    \"date\": \"models.DateField\",\n    \"datetime\": \"models.DateTimeField\",\n    \"email\": \"models.EmailField\",\n    \"float\": \"models.FloatField\",\n    \"decimal\": \"models.DecimalField\",",
-        "detail": "model_generator",
+        "importPath": "build.lib.package.generate_django_app",
+        "description": "build.lib.package.generate_django_app",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(description=\"Generate a Django app\")\n    parser.add_argument(\"app_name\", help=\"Name of the Django app to create\")\n    args = parser.parse_args()\n    generate_django_app(args.app_name)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "build.lib.package.generate_django_app",
         "documentation": {}
     },
     {
         "label": "get_plural",
         "kind": 2,
-        "importPath": "view_generator",
-        "description": "view_generator",
+        "importPath": "build.lib.package.lib",
+        "description": "build.lib.package.lib",
         "peekOfCode": "def get_plural(word):\n    p = inflect.engine()\n    plural_word = p.plural(word)\n    return plural_word\ndef get_lower_plural(word):\n    p = inflect.engine()\n    plural_word = p.plural(word.lower())\n    return plural_word\ndef copy_file(source_file, destination_file):\n    try:",
-        "detail": "view_generator",
+        "detail": "build.lib.package.lib",
         "documentation": {}
     },
     {
         "label": "get_lower_plural",
         "kind": 2,
-        "importPath": "view_generator",
-        "description": "view_generator",
+        "importPath": "build.lib.package.lib",
+        "description": "build.lib.package.lib",
         "peekOfCode": "def get_lower_plural(word):\n    p = inflect.engine()\n    plural_word = p.plural(word.lower())\n    return plural_word\ndef copy_file(source_file, destination_file):\n    try:\n        with open(source_file, 'r') as source:\n            with open(destination_file, 'w') as destination:\n                content = source.read()\n                destination.write(content)",
-        "detail": "view_generator",
+        "detail": "build.lib.package.lib",
         "documentation": {}
     },
     {
         "label": "copy_file",
         "kind": 2,
-        "importPath": "view_generator",
-        "description": "view_generator",
-        "peekOfCode": "def copy_file(source_file, destination_file):\n    try:\n        with open(source_file, 'r') as source:\n            with open(destination_file, 'w') as destination:\n                content = source.read()\n                destination.write(content)\n        print(f\"File copied from '{source_file}' to '{destination_file}' successfully.\")\n    except FileNotFoundError:\n        print(\"File not found. Please provide valid file names.\")\ndef create_view_paginator(model_name, app_name):",
-        "detail": "view_generator",
+        "importPath": "build.lib.package.lib",
+        "description": "build.lib.package.lib",
+        "peekOfCode": "def copy_file(source_file, destination_file):\n    try:\n        with open(source_file, 'r') as source:\n            with open(destination_file, 'w') as destination:\n                content = source.read()\n                destination.write(content)\n        print(f\"File copied from '{source_file}' to '{destination_file}' successfully.\")\n    except FileNotFoundError:\n        print(\"File not found. Please provide valid file names.\")\ndef parse_model_fields(file_path):",
+        "detail": "build.lib.package.lib",
+        "documentation": {}
+    },
+    {
+        "label": "parse_model_fields",
+        "kind": 2,
+        "importPath": "build.lib.package.lib",
+        "description": "build.lib.package.lib",
+        "peekOfCode": "def parse_model_fields(file_path):\n    field_pattern = re.compile(r'^\\s*(\\w+)\\s*=\\s*models\\.(\\w+)\\(', re.MULTILINE)\n    fields = {}\n    with open(file_path, 'r') as file:\n        content = file.read()\n        matches = field_pattern.finditer(content)\n        for match in matches:\n            field_name = match.group(1)\n            field_type = match.group(2)\n            fields[field_name] = field_type",
+        "detail": "build.lib.package.lib",
+        "documentation": {}
+    },
+    {
+        "label": "field_widgets",
+        "kind": 5,
+        "importPath": "build.lib.package.lib",
+        "description": "build.lib.package.lib",
+        "peekOfCode": "field_widgets = {\n    'DateField': \"forms.DateInput(attrs={'class': 'form-control datepicker'})\",\n    'DateTimeField': \"forms.DateTimeInput(attrs={'class': 'form-control datetimepicker'})\",\n    'CharField': \"forms.TextInput(attrs={'class': 'form-control custom-text-input'})\",\n    'EmailField': \"forms.EmailInput(attrs={'class': 'form-control custom-email-input'})\",\n    'BooleanField': \"forms.CheckboxInput(attrs={'class': 'form-control custom-checkbox'})\",\n    'IntegerField': \"forms.NumberInput(attrs={'class': 'form-control custom-number-input'})\",\n    'FloatField': \"forms.NumberInput(attrs={'class': 'form-control custom-float-input'})\",\n    'URLField': \"forms.URLInput(attrs={'class': 'form-control custom-url-input'})\",\n    'FileField': \"forms.ClearableFileInput(attrs={'class': 'form-control custom-file-input'})\",",
+        "detail": "build.lib.package.lib",
+        "documentation": {}
+    },
+    {
+        "label": "print_yellow",
+        "kind": 2,
+        "importPath": "build.lib.package.model_generator",
+        "description": "build.lib.package.model_generator",
+        "peekOfCode": "def print_yellow(text):\n    print(Fore.YELLOW + text + Style.RESET_ALL)\n# Dictionnaire des types de champs Django correspondant aux choix possibles\nfield_choices = {\n    \"string\": 'models.CharField',\n    \"integer\": 'models.IntegerField',\n    \"text\": 'models.TextField',\n    \"boolean\": \"models.BooleanField\",\n    \"date\": \"models.DateField\",\n    \"datetime\": \"models.DateTimeField\",",
+        "detail": "build.lib.package.model_generator",
+        "documentation": {}
+    },
+    {
+        "label": "is_valid_model_name",
+        "kind": 2,
+        "importPath": "build.lib.package.model_generator",
+        "description": "build.lib.package.model_generator",
+        "peekOfCode": "def is_valid_model_name(name):\n    return bool(re.match(r'^[a-zA-Z][_a-zA-Z0-9]*$', name))\ndef parse_model_fields(file_path):\n    field_pattern = re.compile(r'^\\s*(\\w+)\\s*=\\s*models\\.(\\w+)\\(', re.MULTILINE)\n    fields = {}\n    with open(file_path, 'r') as file:\n        content = file.read()\n        matches = field_pattern.finditer(content)\n        for match in matches:\n            field_name = match.group(1)",
+        "detail": "build.lib.package.model_generator",
+        "documentation": {}
+    },
+    {
+        "label": "parse_model_fields",
+        "kind": 2,
+        "importPath": "build.lib.package.model_generator",
+        "description": "build.lib.package.model_generator",
+        "peekOfCode": "def parse_model_fields(file_path):\n    field_pattern = re.compile(r'^\\s*(\\w+)\\s*=\\s*models\\.(\\w+)\\(', re.MULTILINE)\n    fields = {}\n    with open(file_path, 'r') as file:\n        content = file.read()\n        matches = field_pattern.finditer(content)\n        for match in matches:\n            field_name = match.group(1)\n            field_type = match.group(2)\n            fields[field_name] = field_type",
+        "detail": "build.lib.package.model_generator",
+        "documentation": {}
+    },
+    {
+        "label": "generate_model",
+        "kind": 2,
+        "importPath": "build.lib.package.model_generator",
+        "description": "build.lib.package.model_generator",
+        "peekOfCode": "def generate_model(app_name, model_name = False):\n    # model_name = \"\"\n    # print_yellow(\"===================   {app_name} : {model_name}   ===================\")\n    fields = [('updated_at', 'models.DateTimeField(auto_now=True)', {}),\n              ('created_at', 'models.DateTimeField(auto_now_add=True)', {})]\n    if not model_name:\n        while True:\n            model_name = questionary.text(\"Nom du modèle :\").ask().strip()\n            if not model_name:\n                print_yellow(\"Le nom du modèle ne peut pas être vide. Veuillez saisir un nom valide.\")",
+        "detail": "build.lib.package.model_generator",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "build.lib.package.model_generator",
+        "description": "build.lib.package.model_generator",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(description=\"Générer un modèle Django interactif.\")\n    parser.add_argument(\"app_name\", help=\"Nom de l'application dans laquelle vous souhaitez générer le dossier models.\")\n    parser.add_argument(\"model_name\", help=\"Nom du model que vous souhaitez créer.\")\n    parser.add_argument(\"-v\", \"--version\", action=\"version\", version=\"%(prog)s 1.0\")\n    args = parser.parse_args()\n    generate_model(app_name=args.app_name, model_name=args.model_name)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "build.lib.package.model_generator",
+        "documentation": {}
+    },
+    {
+        "label": "field_choices",
+        "kind": 5,
+        "importPath": "build.lib.package.model_generator",
+        "description": "build.lib.package.model_generator",
+        "peekOfCode": "field_choices = {\n    \"string\": 'models.CharField',\n    \"integer\": 'models.IntegerField',\n    \"text\": 'models.TextField',\n    \"boolean\": \"models.BooleanField\",\n    \"date\": \"models.DateField\",\n    \"datetime\": \"models.DateTimeField\",\n    \"email\": \"models.EmailField\",\n    \"float\": \"models.FloatField\",\n    \"decimal\": \"models.DecimalField\",",
+        "detail": "build.lib.package.model_generator",
+        "documentation": {}
+    },
+    {
+        "label": "print_yellow",
+        "kind": 2,
+        "importPath": "build.lib.package.module",
+        "description": "build.lib.package.module",
+        "peekOfCode": "def print_yellow(text):\n    print(Fore.YELLOW + text + Style.RESET_ALL)\n# The directory containing this file\nBASE_DIR = pathlib.Path(__file__).parent.parent\ndef start(file_path, args):\n    subprocess.run([\"python\", Path(BASE_DIR / file_path ), args.app_name, args.model_name])\ndef make_project(args):\n    print_yellow(f\"Executing create:project command for {args.project_name}\")\n    # generate_entity()\n    subprocess.run([\"python\", ",
+        "detail": "build.lib.package.module",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "kind": 2,
+        "importPath": "build.lib.package.module",
+        "description": "build.lib.package.module",
+        "peekOfCode": "def start(file_path, args):\n    subprocess.run([\"python\", Path(BASE_DIR / file_path ), args.app_name, args.model_name])\ndef make_project(args):\n    print_yellow(f\"Executing create:project command for {args.project_name}\")\n    # generate_entity()\n    subprocess.run([\"python\", \n                    Path(BASE_DIR / \"package/create_django_project.py\" ), \n                    args.project_name])\ndef make_app(args):\n    print_yellow(f\"Executing create:app command for app: {args.app_name}.\")",
+        "detail": "build.lib.package.module",
+        "documentation": {}
+    },
+    {
+        "label": "make_project",
+        "kind": 2,
+        "importPath": "build.lib.package.module",
+        "description": "build.lib.package.module",
+        "peekOfCode": "def make_project(args):\n    print_yellow(f\"Executing create:project command for {args.project_name}\")\n    # generate_entity()\n    subprocess.run([\"python\", \n                    Path(BASE_DIR / \"package/create_django_project.py\" ), \n                    args.project_name])\ndef make_app(args):\n    print_yellow(f\"Executing create:app command for app: {args.app_name}.\")\n    # generate_entity()\n    subprocess.run([\"python\", ",
+        "detail": "build.lib.package.module",
+        "documentation": {}
+    },
+    {
+        "label": "make_app",
+        "kind": 2,
+        "importPath": "build.lib.package.module",
+        "description": "build.lib.package.module",
+        "peekOfCode": "def make_app(args):\n    print_yellow(f\"Executing create:app command for app: {args.app_name}.\")\n    # generate_entity()\n    subprocess.run([\"python\", \n                    Path(BASE_DIR / \"package/generate_django_app.py\" ), \n                    args.app_name])\ndef make_entity(args):\n    print_yellow(f\"Executing make:entity command for app: {args.app_name} and model: {args.model_name}.\")\n    # generate_entity()\n    start(\"package/model_generator.py\", args)",
+        "detail": "build.lib.package.module",
+        "documentation": {}
+    },
+    {
+        "label": "make_entity",
+        "kind": 2,
+        "importPath": "build.lib.package.module",
+        "description": "build.lib.package.module",
+        "peekOfCode": "def make_entity(args):\n    print_yellow(f\"Executing make:entity command for app: {args.app_name} and model: {args.model_name}.\")\n    # generate_entity()\n    start(\"package/model_generator.py\", args)\n    start(\"package/view_generator.py\", args)\n    start(\"package/template_generator.py\", args)\ndef make_form(args):\n    print_yellow(f\"Executing make:form command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/form_generator.py\", args)\ndef make_view(args):",
+        "detail": "build.lib.package.module",
+        "documentation": {}
+    },
+    {
+        "label": "make_form",
+        "kind": 2,
+        "importPath": "build.lib.package.module",
+        "description": "build.lib.package.module",
+        "peekOfCode": "def make_form(args):\n    print_yellow(f\"Executing make:form command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/form_generator.py\", args)\ndef make_view(args):\n    print_yellow(f\"Executing make:view command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/view_generator.py\", args)\n    start(\"package/template_generator.py\", args)\ndef make_model(args):\n    print_yellow(f\"Executing make:model command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/model_generator.py\", args)",
+        "detail": "build.lib.package.module",
+        "documentation": {}
+    },
+    {
+        "label": "make_view",
+        "kind": 2,
+        "importPath": "build.lib.package.module",
+        "description": "build.lib.package.module",
+        "peekOfCode": "def make_view(args):\n    print_yellow(f\"Executing make:view command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/view_generator.py\", args)\n    start(\"package/template_generator.py\", args)\ndef make_model(args):\n    print_yellow(f\"Executing make:model command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/model_generator.py\", args)\ndef make_entity_crud(args):\n    print_yellow(f\"Executing make:crud command for app: {args.app_name} and model: {args.model_name}.\")\n    start(\"package/from_generator.py\", args)",
+        "detail": "build.lib.package.module",
+        "documentation": {}
+    },
+    {
+        "label": "make_model",
+        "kind": 2,
+        "importPath": "build.lib.package.module",
+        "description": "build.lib.package.module",
+        "peekOfCode": "def make_model(args):\n    print_yellow(f\"Executing make:model command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/model_generator.py\", args)\ndef make_entity_crud(args):\n    print_yellow(f\"Executing make:crud command for app: {args.app_name} and model: {args.model_name}.\")\n    start(\"package/from_generator.py\", args)\n    start(\"package/view_generator.py\", args)\n    start(\"package/template_generator.py\", args)\ndef make_service(args):\n    print_yellow(f\"Executing make:service command for app: {args.app_name} and service: {args.service_name}.\")",
+        "detail": "build.lib.package.module",
+        "documentation": {}
+    },
+    {
+        "label": "make_entity_crud",
+        "kind": 2,
+        "importPath": "build.lib.package.module",
+        "description": "build.lib.package.module",
+        "peekOfCode": "def make_entity_crud(args):\n    print_yellow(f\"Executing make:crud command for app: {args.app_name} and model: {args.model_name}.\")\n    start(\"package/from_generator.py\", args)\n    start(\"package/view_generator.py\", args)\n    start(\"package/template_generator.py\", args)\ndef make_service(args):\n    print_yellow(f\"Executing make:service command for app: {args.app_name} and service: {args.service_name}.\")\n    subprocess.run([\"python\", \n                    Path(BASE_DIR / \"package/ecommerce_generator.py\" ), \n                    args.app_name, args.service_name])",
+        "detail": "build.lib.package.module",
+        "documentation": {}
+    },
+    {
+        "label": "make_service",
+        "kind": 2,
+        "importPath": "build.lib.package.module",
+        "description": "build.lib.package.module",
+        "peekOfCode": "def make_service(args):\n    print_yellow(f\"Executing make:service command for app: {args.app_name} and service: {args.service_name}.\")\n    subprocess.run([\"python\", \n                    Path(BASE_DIR / \"package/ecommerce_generator.py\" ), \n                    args.app_name, args.service_name])\ndef main():\n    parser = argparse.ArgumentParser(description=\"Custom CLI for performing tasks\")\n    subparsers = parser.add_subparsers()\n    entity_parser = subparsers.add_parser(\"create:project\", help=\"Create an django project\")\n    entity_parser.add_argument(\"project_name\", help=\"Name of the project\")",
+        "detail": "build.lib.package.module",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "build.lib.package.module",
+        "description": "build.lib.package.module",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(description=\"Custom CLI for performing tasks\")\n    subparsers = parser.add_subparsers()\n    entity_parser = subparsers.add_parser(\"create:project\", help=\"Create an django project\")\n    entity_parser.add_argument(\"project_name\", help=\"Name of the project\")\n    entity_parser.set_defaults(func=make_project)\n    entity_parser = subparsers.add_parser(\"create:app\", help=\"Create an django application\")\n    entity_parser.add_argument(\"app_name\", help=\"Name of the app\")\n    entity_parser.set_defaults(func=make_app)\n    entity_parser = subparsers.add_parser(\"make:entity\", help=\"Create an entity\")",
+        "detail": "build.lib.package.module",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "build.lib.package.module",
+        "description": "build.lib.package.module",
+        "peekOfCode": "BASE_DIR = pathlib.Path(__file__).parent.parent\ndef start(file_path, args):\n    subprocess.run([\"python\", Path(BASE_DIR / file_path ), args.app_name, args.model_name])\ndef make_project(args):\n    print_yellow(f\"Executing create:project command for {args.project_name}\")\n    # generate_entity()\n    subprocess.run([\"python\", \n                    Path(BASE_DIR / \"package/create_django_project.py\" ), \n                    args.project_name])\ndef make_app(args):",
+        "detail": "build.lib.package.module",
+        "documentation": {}
+    },
+    {
+        "label": "print_yellow",
+        "kind": 2,
+        "importPath": "build.lib.package.template_generator",
+        "description": "build.lib.package.template_generator",
+        "peekOfCode": "def print_yellow(text):\n    print(Fore.YELLOW + text + Style.RESET_ALL)\nfield_widgets = {\n    'DateField': \"forms.DateInput(attrs={'class': 'form-control datepicker'})\",\n    'DateTimeField': \"forms.DateTimeInput(attrs={'class': 'form-control datetimepicker'})\",\n    'CharField': \"forms.TextInput(attrs={'class': 'form-control custom-text-input'})\",\n    'EmailField': \"forms.EmailInput(attrs={'class': 'form-control custom-email-input'})\",\n    'BooleanField': \"forms.CheckboxInput(attrs={'class': 'form-control custom-checkbox'})\",\n    'IntegerField': \"forms.NumberInput(attrs={'class': 'form-control custom-number-input'})\",\n    'FloatField': \"forms.NumberInput(attrs={'class': 'form-control custom-float-input'})\",",
+        "detail": "build.lib.package.template_generator",
+        "documentation": {}
+    },
+    {
+        "label": "get_plural",
+        "kind": 2,
+        "importPath": "build.lib.package.template_generator",
+        "description": "build.lib.package.template_generator",
+        "peekOfCode": "def get_plural(word):\n    p = inflect.engine()\n    plural_word = p.plural(word)\n    return plural_word\ndef get_lower_plural(word):\n    p = inflect.engine()\n    plural_word = p.plural(word.lower())\n    return plural_word\ndef copy_file(source_file, destination_file):\n    try:",
+        "detail": "build.lib.package.template_generator",
+        "documentation": {}
+    },
+    {
+        "label": "get_lower_plural",
+        "kind": 2,
+        "importPath": "build.lib.package.template_generator",
+        "description": "build.lib.package.template_generator",
+        "peekOfCode": "def get_lower_plural(word):\n    p = inflect.engine()\n    plural_word = p.plural(word.lower())\n    return plural_word\ndef copy_file(source_file, destination_file):\n    try:\n        with open(source_file, 'r') as source:\n            with open(destination_file, 'w') as destination:\n                content = source.read()\n                destination.write(content)",
+        "detail": "build.lib.package.template_generator",
+        "documentation": {}
+    },
+    {
+        "label": "copy_file",
+        "kind": 2,
+        "importPath": "build.lib.package.template_generator",
+        "description": "build.lib.package.template_generator",
+        "peekOfCode": "def copy_file(source_file, destination_file):\n    try:\n        with open(source_file, 'r') as source:\n            with open(destination_file, 'w') as destination:\n                content = source.read()\n                destination.write(content)\n        print_yellow(f\"File copied from '{source_file}' to '{destination_file}' successfully.\")\n    except FileNotFoundError:\n        print_yellow(\"File not found. Please provide valid file names.\")\ndef parse_model_fields(file_path):",
+        "detail": "build.lib.package.template_generator",
+        "documentation": {}
+    },
+    {
+        "label": "parse_model_fields",
+        "kind": 2,
+        "importPath": "build.lib.package.template_generator",
+        "description": "build.lib.package.template_generator",
+        "peekOfCode": "def parse_model_fields(file_path):\n    field_pattern = re.compile(r'^\\s*(\\w+)\\s*=\\s*models\\.(\\w+)\\(', re.MULTILINE)\n    fields = {}\n    with open(file_path, 'r') as file:\n        content = file.read()\n        matches = field_pattern.finditer(content)\n        for match in matches:\n            field_name = match.group(1)\n            field_type = match.group(2)\n            fields[field_name] = field_type",
+        "detail": "build.lib.package.template_generator",
         "documentation": {}
     },
     {
         "label": "create_view_paginator",
         "kind": 2,
-        "importPath": "view_generator",
-        "description": "view_generator",
+        "importPath": "build.lib.package.template_generator",
+        "description": "build.lib.package.template_generator",
         "peekOfCode": "def create_view_paginator(model_name, app_name):\n    template_folder = Path(f\"{app_name}/templates/{app_name}/{get_plural(model_name.lower())}\")\n    model_filename = f\"{app_name}/models/{model_name}.py\"\n    model_fields = parse_model_fields(model_filename)\n    index_content = '''\n                    {% if datas.has_other_pages %}\n                        <nav aria-label=\"Page navigation example\">\n                            <ul class=\"pagination\">\n                                {% if datas.has_previous %}\n                                    <li class=\"page-item\">",
-        "detail": "view_generator",
+        "detail": "build.lib.package.template_generator",
         "documentation": {}
     },
     {
         "label": "create_view_index",
         "kind": 2,
-        "importPath": "view_generator",
-        "description": "view_generator",
+        "importPath": "build.lib.package.template_generator",
+        "description": "build.lib.package.template_generator",
         "peekOfCode": "def create_view_index(model_name, app_name):\n    template_folder = Path(f\"{app_name}/templates/{app_name}/{get_plural(model_name.lower())}\")\n    model_filename = f\"{app_name}/models/{model_name}.py\"\n    model_fields = parse_model_fields(model_filename)\n    table_header = \"\"\n    for key, value in model_fields.items():\n        table_header += f\"    <th scope='col'>{key}</td>\\n\"\n    table_content = \"\"\n    for key, value in model_fields.items():\n        table_content += \"    <td scope='col'>{{ \"+ model_name.lower() +\".\"+key + \"}}</td>\\n\"",
-        "detail": "view_generator",
+        "detail": "build.lib.package.template_generator",
         "documentation": {}
     },
     {
         "label": "create_view_show",
         "kind": 2,
-        "importPath": "view_generator",
-        "description": "view_generator",
+        "importPath": "build.lib.package.template_generator",
+        "description": "build.lib.package.template_generator",
         "peekOfCode": "def create_view_show(model_name, app_name):\n    template_folder = Path(f\"{app_name}/templates/{app_name}/{get_plural(model_name.lower())}\")\n    model_filename = f\"{app_name}/models/{model_name}.py\"\n    model_fields = parse_model_fields(model_filename)\n    table_content = \"\"\n    for key, value in model_fields.items():\n        table_content += \"    <tr>\\n\"\n        table_content += \"        <td scope='col'> \"+key.capitalize() + \": </td>\\n\"\n        table_content += \"        <td scope='col'>{{ \"+ model_name.lower() +\".\"+key + \"}}</td>\"\n        table_content += \"    </tr>\"",
-        "detail": "view_generator",
+        "detail": "build.lib.package.template_generator",
         "documentation": {}
     },
     {
         "label": "create_view_edit",
         "kind": 2,
-        "importPath": "view_generator",
-        "description": "view_generator",
+        "importPath": "build.lib.package.template_generator",
+        "description": "build.lib.package.template_generator",
         "peekOfCode": "def create_view_edit(model_name, app_name):\n    template_folder = Path(f\"{app_name}/templates/{app_name}/{get_plural(model_name.lower())}\")\n    form_link = f\"{model_name.lower()}_form.html\"\n    # model_filename = f\"{app_name}/models/{model_name}.py\"\n    # model_fields = parse_model_fields(model_filename)\n    index_content = '''{% extends \"''' + app_name + '''/admin.html\" %}\n    {% load static %}\n    {% block content %}\n    {% if messages %}\n        {% for message in messages %}",
-        "detail": "view_generator",
+        "detail": "build.lib.package.template_generator",
         "documentation": {}
     },
     {
         "label": "create_view_create",
         "kind": 2,
-        "importPath": "view_generator",
-        "description": "view_generator",
+        "importPath": "build.lib.package.template_generator",
+        "description": "build.lib.package.template_generator",
         "peekOfCode": "def create_view_create(model_name, app_name):\n    template_folder = Path(f\"{app_name}/templates/{app_name}/{get_plural(model_name.lower())}\")\n    form_link = f\"{model_name.lower()}_form.html\"\n    # model_filename = f\"{app_name}/models/{model_name}.py\"\n    # model_fields = parse_model_fields(model_filename)\n    index_content = '''{% extends \"''' + app_name + '''/admin.html\" %}\n    {% load static %}\n    {% block content %}\n    {% if messages %}\n        {% for message in messages %}",
-        "detail": "view_generator",
+        "detail": "build.lib.package.template_generator",
         "documentation": {}
     },
     {
         "label": "create_view_form",
         "kind": 2,
-        "importPath": "view_generator",
-        "description": "view_generator",
+        "importPath": "build.lib.package.template_generator",
+        "description": "build.lib.package.template_generator",
         "peekOfCode": "def create_view_form(model_name, app_name):\n    template_folder = Path(f\"{app_name}/templates/{app_name}/{get_plural(model_name.lower())}\")\n    model_filename = f\"{app_name}/models/{model_name}.py\"\n    model_fields = parse_model_fields(model_filename)\n    form_content = \"\"\n    for key, value in model_fields.items():\n        form_content += \"    <div class='form-group'>\\n\"\n        form_content += f\"        <label for='{key}'> { key.capitalize() }: </label>\\n\"\n        form_content += \"        {{ form.\"+key+\" }}\\n\"\n        form_content += '''",
-        "detail": "view_generator",
+        "detail": "build.lib.package.template_generator",
         "documentation": {}
     },
     {
         "label": "generate_templates",
         "kind": 2,
-        "importPath": "view_generator",
-        "description": "view_generator",
+        "importPath": "build.lib.package.template_generator",
+        "description": "build.lib.package.template_generator",
         "peekOfCode": "def generate_templates(model_name, app_name):\n    template_folder = Path(f\"{app_name}/templates/{app_name}/{get_plural(model_name.lower())}\")\n    if not template_folder.exists():\n        template_folder.mkdir(parents=True)\n    # paginator template\n    create_view_paginator(model_name, app_name)\n    # Index template\n    create_view_index(model_name, app_name)\n    # Detail template\n    create_view_show(model_name, app_name)",
-        "detail": "view_generator",
+        "detail": "build.lib.package.template_generator",
+        "documentation": {}
+    },
+    {
+        "label": "field_widgets",
+        "kind": 5,
+        "importPath": "build.lib.package.template_generator",
+        "description": "build.lib.package.template_generator",
+        "peekOfCode": "field_widgets = {\n    'DateField': \"forms.DateInput(attrs={'class': 'form-control datepicker'})\",\n    'DateTimeField': \"forms.DateTimeInput(attrs={'class': 'form-control datetimepicker'})\",\n    'CharField': \"forms.TextInput(attrs={'class': 'form-control custom-text-input'})\",\n    'EmailField': \"forms.EmailInput(attrs={'class': 'form-control custom-email-input'})\",\n    'BooleanField': \"forms.CheckboxInput(attrs={'class': 'form-control custom-checkbox'})\",\n    'IntegerField': \"forms.NumberInput(attrs={'class': 'form-control custom-number-input'})\",\n    'FloatField': \"forms.NumberInput(attrs={'class': 'form-control custom-float-input'})\",\n    'URLField': \"forms.URLInput(attrs={'class': 'form-control custom-url-input'})\",\n    'FileField': \"forms.ClearableFileInput(attrs={'class': 'form-control custom-file-input'})\",",
+        "detail": "build.lib.package.template_generator",
+        "documentation": {}
+    },
+    {
+        "label": "print_yellow",
+        "kind": 2,
+        "importPath": "build.lib.package.view_generator",
+        "description": "build.lib.package.view_generator",
+        "peekOfCode": "def print_yellow(text):\n    print(Fore.YELLOW + text + Style.RESET_ALL)\nfield_widgets = {\n    'DateField': \"forms.DateInput(attrs={'class': 'form-control datepicker'})\",\n    'DateTimeField': \"forms.DateTimeInput(attrs={'class': 'form-control datetimepicker'})\",\n    'CharField': \"forms.TextInput(attrs={'class': 'form-control custom-text-input'})\",\n    'EmailField': \"forms.EmailInput(attrs={'class': 'form-control custom-email-input'})\",\n    'BooleanField': \"forms.CheckboxInput(attrs={'class': 'form-control custom-checkbox'})\",\n    'IntegerField': \"forms.NumberInput(attrs={'class': 'form-control custom-number-input'})\",\n    'FloatField': \"forms.NumberInput(attrs={'class': 'form-control custom-float-input'})\",",
+        "detail": "build.lib.package.view_generator",
+        "documentation": {}
+    },
+    {
+        "label": "get_plural",
+        "kind": 2,
+        "importPath": "build.lib.package.view_generator",
+        "description": "build.lib.package.view_generator",
+        "peekOfCode": "def get_plural(word):\n    p = inflect.engine()\n    plural_word = p.plural(word)\n    return plural_word\ndef get_lower_plural(word):\n    p = inflect.engine()\n    plural_word = p.plural(word.lower())\n    return plural_word\ndef copy_file(source_file, destination_file):\n    try:",
+        "detail": "build.lib.package.view_generator",
+        "documentation": {}
+    },
+    {
+        "label": "get_lower_plural",
+        "kind": 2,
+        "importPath": "build.lib.package.view_generator",
+        "description": "build.lib.package.view_generator",
+        "peekOfCode": "def get_lower_plural(word):\n    p = inflect.engine()\n    plural_word = p.plural(word.lower())\n    return plural_word\ndef copy_file(source_file, destination_file):\n    try:\n        with open(source_file, 'r') as source:\n            with open(destination_file, 'w') as destination:\n                content = source.read()\n                destination.write(content)",
+        "detail": "build.lib.package.view_generator",
+        "documentation": {}
+    },
+    {
+        "label": "copy_file",
+        "kind": 2,
+        "importPath": "build.lib.package.view_generator",
+        "description": "build.lib.package.view_generator",
+        "peekOfCode": "def copy_file(source_file, destination_file):\n    try:\n        with open(source_file, 'r') as source:\n            with open(destination_file, 'w') as destination:\n                content = source.read()\n                destination.write(content)\n        print_yellow(f\"File copied from '{source_file}' to '{destination_file}' successfully.\")\n    except FileNotFoundError:\n        print_yellow(\"File not found. Please provide valid file names.\")\ndef parse_model_fields(file_path):",
+        "detail": "build.lib.package.view_generator",
+        "documentation": {}
+    },
+    {
+        "label": "parse_model_fields",
+        "kind": 2,
+        "importPath": "build.lib.package.view_generator",
+        "description": "build.lib.package.view_generator",
+        "peekOfCode": "def parse_model_fields(file_path):\n    field_pattern = re.compile(r'^\\s*(\\w+)\\s*=\\s*models\\.(\\w+)\\(', re.MULTILINE)\n    fields = {}\n    with open(file_path, 'r') as file:\n        content = file.read()\n        matches = field_pattern.finditer(content)\n        for match in matches:\n            field_name = match.group(1)\n            field_type = match.group(2)\n            fields[field_name] = field_type",
+        "detail": "build.lib.package.view_generator",
         "documentation": {}
     },
     {
         "label": "generate_view",
         "kind": 2,
-        "importPath": "view_generator",
-        "description": "view_generator",
+        "importPath": "build.lib.package.view_generator",
+        "description": "build.lib.package.view_generator",
         "peekOfCode": "def generate_view(app_name, model_name):\n    # Chemin du dossier des vues dans l'application spécifiée\n    views_folder = Path(f\"{app_name}/views\")\n    if not views_folder.exists():\n        views_folder.mkdir(parents=True)\n    # Nom du fichier pour la vue\n    view_filename = views_folder / f\"{model_name}View.py\"\n    if view_filename.exists():\n        user_input = input(f\"Le fichier '{view_filename}' existe déjà. Voulez-vous l'écraser ? (O/n): \")\n        if user_input.lower() != 'o':",
-        "detail": "view_generator",
+        "detail": "build.lib.package.view_generator",
+        "documentation": {}
+    },
+    {
+        "label": "field_widgets",
+        "kind": 5,
+        "importPath": "build.lib.package.view_generator",
+        "description": "build.lib.package.view_generator",
+        "peekOfCode": "field_widgets = {\n    'DateField': \"forms.DateInput(attrs={'class': 'form-control datepicker'})\",\n    'DateTimeField': \"forms.DateTimeInput(attrs={'class': 'form-control datetimepicker'})\",\n    'CharField': \"forms.TextInput(attrs={'class': 'form-control custom-text-input'})\",\n    'EmailField': \"forms.EmailInput(attrs={'class': 'form-control custom-email-input'})\",\n    'BooleanField': \"forms.CheckboxInput(attrs={'class': 'form-control custom-checkbox'})\",\n    'IntegerField': \"forms.NumberInput(attrs={'class': 'form-control custom-number-input'})\",\n    'FloatField': \"forms.NumberInput(attrs={'class': 'form-control custom-float-input'})\",\n    'URLField': \"forms.URLInput(attrs={'class': 'form-control custom-url-input'})\",\n    'FileField': \"forms.ClearableFileInput(attrs={'class': 'form-control custom-file-input'})\",",
+        "detail": "build.lib.package.view_generator",
+        "documentation": {}
+    },
+    {
+        "label": "print_yellow",
+        "kind": 2,
+        "importPath": "package.create_django_project",
+        "description": "package.create_django_project",
+        "peekOfCode": "def print_yellow(text):\n    print(Fore.YELLOW + text + Style.RESET_ALL)\ndef check_django_installation():\n    try:\n        # Vérifier l'installation de Django en tentant d'importer le module\n        import django\n        return True\n    except ImportError:\n        return False\ndef install_django():",
+        "detail": "package.create_django_project",
+        "documentation": {}
+    },
+    {
+        "label": "check_django_installation",
+        "kind": 2,
+        "importPath": "package.create_django_project",
+        "description": "package.create_django_project",
+        "peekOfCode": "def check_django_installation():\n    try:\n        # Vérifier l'installation de Django en tentant d'importer le module\n        import django\n        return True\n    except ImportError:\n        return False\ndef install_django():\n    try:\n        subprocess.run([\"pip\", \"install\", \"django\"], check=True)",
+        "detail": "package.create_django_project",
+        "documentation": {}
+    },
+    {
+        "label": "install_django",
+        "kind": 2,
+        "importPath": "package.create_django_project",
+        "description": "package.create_django_project",
+        "peekOfCode": "def install_django():\n    try:\n        subprocess.run([\"pip\", \"install\", \"django\"], check=True)\n        return True\n    except subprocess.CalledProcessError:\n        return False\ndef create_django_project(project_name):\n    # Vérifier si Django est installé, sinon l'installer\n    if not check_django_installation():\n        print_yellow(\"Django not found. Installing Django...\")",
+        "detail": "package.create_django_project",
+        "documentation": {}
+    },
+    {
+        "label": "create_django_project",
+        "kind": 2,
+        "importPath": "package.create_django_project",
+        "description": "package.create_django_project",
+        "peekOfCode": "def create_django_project(project_name):\n    # Vérifier si Django est installé, sinon l'installer\n    if not check_django_installation():\n        print_yellow(\"Django not found. Installing Django...\")\n        if not install_django():\n            print_yellow(\"Failed to install Django. Aborting project creation.\")\n            return\n    try:\n        # Création du répertoire pour le projet\n        project_dir = Path.cwd() / project_name",
+        "detail": "package.create_django_project",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "package.create_django_project",
+        "description": "package.create_django_project",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(description=\"Create a Django project\")\n    parser.add_argument(\"project_name\", help=\"Name of the Django project to create\")\n    args = parser.parse_args()\n    create_django_project(args.project_name)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "package.create_django_project",
+        "documentation": {}
+    },
+    {
+        "label": "CartService",
+        "kind": 6,
+        "importPath": "package.ecommerce_generator",
+        "description": "package.ecommerce_generator",
+        "peekOfCode": "class CartService:\n    @staticmethod\n    def add_to_cart(request, product_id, quantity):\n        cart = request.session.get('cart', {})\n        product_id = str(product_id)\n        if product_id in cart:\n            cart[product_id] += quantity\n        else:\n            cart[product_id] = quantity\n        request.session['cart'] = cart",
+        "detail": "package.ecommerce_generator",
+        "documentation": {}
+    },
+    {
+        "label": "WishService",
+        "kind": 6,
+        "importPath": "package.ecommerce_generator",
+        "description": "package.ecommerce_generator",
+        "peekOfCode": "class WishService:\n    @staticmethod\n    def add_product_to_wish(request, product_id):\n        wish_products = request.session.get('wish', [])\n        if product_id not in wish_products:\n            wish_products.append(product_id)\n            request.session['wish'] = wish_products\n    @staticmethod\n    def remove_product_from_wish(request, product_id):\n        wish_products = request.session.get('wish', [])",
+        "detail": "package.ecommerce_generator",
+        "documentation": {}
+    },
+    {
+        "label": "CompareService",
+        "kind": 6,
+        "importPath": "package.ecommerce_generator",
+        "description": "package.ecommerce_generator",
+        "peekOfCode": "class CompareService:\n    @staticmethod\n    def add_product_to_compare(request, product_id):\n        compare_products = request.session.get('compare', [])\n        if product_id not in compare_products:\n            compare_products.append(product_id)\n            request.session['compare'] = compare_products\n    @staticmethod\n    def remove_product_from_compare(request, product_id):\n        compare_products = request.session.get('compare', [])",
+        "detail": "package.ecommerce_generator",
+        "documentation": {}
+    },
+    {
+        "label": "StripeService",
+        "kind": 6,
+        "importPath": "package.ecommerce_generator",
+        "description": "package.ecommerce_generator",
+        "peekOfCode": "class StripeService:\n    def __init__(self):\n        # Vérifie si la méthode Stripe est disponible\n        self.method = Method.objects.filter(name='Stripe').first()\n    # Implémentez ici la logique de votre service\n    def get_public_key(self):\n        if self.method:\n            return self.method.prod_public_key if settings.DEBUG else self.method.test_public_key\n        return None  # Gérer le cas où la méthode n'est pas trouvée en base de données\n    def get_private_key(self):",
+        "detail": "package.ecommerce_generator",
+        "documentation": {}
+    },
+    {
+        "label": "print_yellow",
+        "kind": 2,
+        "importPath": "package.ecommerce_generator",
+        "description": "package.ecommerce_generator",
+        "peekOfCode": "def print_yellow(text):\n    print(Fore.YELLOW + text + Style.RESET_ALL)\ndef getCart(app_name):\n    return '''\nfrom django.contrib import messages\nfrom '''+app_name+'''.models import Carrier, Setting, Product  # Importez vos modèles ici\nclass CartService:\n    @staticmethod\n    def add_to_cart(request, product_id, quantity):\n        cart = request.session.get('cart', {})",
+        "detail": "package.ecommerce_generator",
+        "documentation": {}
+    },
+    {
+        "label": "getCart",
+        "kind": 2,
+        "importPath": "package.ecommerce_generator",
+        "description": "package.ecommerce_generator",
+        "peekOfCode": "def getCart(app_name):\n    return '''\nfrom django.contrib import messages\nfrom '''+app_name+'''.models import Carrier, Setting, Product  # Importez vos modèles ici\nclass CartService:\n    @staticmethod\n    def add_to_cart(request, product_id, quantity):\n        cart = request.session.get('cart', {})\n        product_id = str(product_id)\n        if product_id in cart:",
+        "detail": "package.ecommerce_generator",
+        "documentation": {}
+    },
+    {
+        "label": "getWishlist",
+        "kind": 2,
+        "importPath": "package.ecommerce_generator",
+        "description": "package.ecommerce_generator",
+        "peekOfCode": "def getWishlist(app_name):\n    return '''\nfrom '''+app_name+'''.models import Product  # Importez votre modèle Product ici\nclass WishService:\n    @staticmethod\n    def add_product_to_wish(request, product_id):\n        wish_products = request.session.get('wish', [])\n        if product_id not in wish_products:\n            wish_products.append(product_id)\n            request.session['wish'] = wish_products",
+        "detail": "package.ecommerce_generator",
+        "documentation": {}
+    },
+    {
+        "label": "getCompare",
+        "kind": 2,
+        "importPath": "package.ecommerce_generator",
+        "description": "package.ecommerce_generator",
+        "peekOfCode": "def getCompare(app_name):\n    return '''\nfrom '''+app_name+'''.models import Product  # Importez votre modèle Product ici\nclass CompareService:\n    @staticmethod\n    def add_product_to_compare(request, product_id):\n        compare_products = request.session.get('compare', [])\n        if product_id not in compare_products:\n            compare_products.append(product_id)\n            request.session['compare'] = compare_products",
+        "detail": "package.ecommerce_generator",
+        "documentation": {}
+    },
+    {
+        "label": "getStripe",
+        "kind": 2,
+        "importPath": "package.ecommerce_generator",
+        "description": "package.ecommerce_generator",
+        "peekOfCode": "def getStripe(app_name):\n    return '''\nfrom '''+app_name+'''.models import Method\nfrom django.conf import settings\nclass StripeService:\n    def __init__(self):\n        # Vérifie si la méthode Stripe est disponible\n        self.method = Method.objects.filter(name='Stripe').first()\n    # Implémentez ici la logique de votre service\n    def get_public_key(self):",
+        "detail": "package.ecommerce_generator",
+        "documentation": {}
+    },
+    {
+        "label": "generate_django_services",
+        "kind": 2,
+        "importPath": "package.ecommerce_generator",
+        "description": "package.ecommerce_generator",
+        "peekOfCode": "def generate_django_services(app_name, service_name):\n    services = {\n        'cart': getCart,\n        'wish': getWishlist,\n        'compare': getCompare,\n        'payment': getStripe,\n    }\n    data_path = f\"{app_name}/services/\"\n    data_file_path = f\"{data_path}{service_name}_service.py\"\n    if not os.path.exists(data_path):",
+        "detail": "package.ecommerce_generator",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "package.ecommerce_generator",
+        "description": "package.ecommerce_generator",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(description=\"Generate a Django Services\")\n    parser.add_argument(\"app_name\", help=\"Name of the Django app to create\")\n    parser.add_argument(\"service_name\", help=\"Name of the Django service to create\")\n    args = parser.parse_args()\n    generate_django_services(args.app_name, args.service_name)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "package.ecommerce_generator",
+        "documentation": {}
+    },
+    {
+        "label": "print_yellow",
+        "kind": 2,
+        "importPath": "package.form_generator",
+        "description": "package.form_generator",
+        "peekOfCode": "def print_yellow(text):\n    print(Fore.YELLOW + text + Style.RESET_ALL)\nfield_widgets = {\n    'DateField': \"forms.DateInput(attrs={'class': 'form-control datepicker'})\",\n    'DateTimeField': \"forms.DateTimeInput(attrs={'class': 'form-control datetimepicker'})\",\n    'CharField': \"forms.TextInput(attrs={'class': 'form-control custom-text-input'})\",\n    'EmailField': \"forms.EmailInput(attrs={'class': 'form-control custom-email-input'})\",\n    'BooleanField': \"forms.CheckboxInput(attrs={'class': 'form-control custom-checkbox'})\",\n    'IntegerField': \"forms.NumberInput(attrs={'class': 'form-control custom-number-input'})\",\n    'FloatField': \"forms.NumberInput(attrs={'class': 'form-control custom-float-input'})\",",
+        "detail": "package.form_generator",
+        "documentation": {}
+    },
+    {
+        "label": "parse_model_fields",
+        "kind": 2,
+        "importPath": "package.form_generator",
+        "description": "package.form_generator",
+        "peekOfCode": "def parse_model_fields(file_path):\n    field_pattern = re.compile(r'^\\s*(\\w+)\\s*=\\s*models\\.(\\w+)\\(', re.MULTILINE)\n    fields = {}\n    with open(file_path, 'r') as file:\n        content = file.read()\n        matches = field_pattern.finditer(content)\n        for match in matches:\n            field_name = match.group(1)\n            field_type = match.group(2)\n            fields[field_name] = field_type",
+        "detail": "package.form_generator",
+        "documentation": {}
+    },
+    {
+        "label": "generate_form",
+        "kind": 2,
+        "importPath": "package.form_generator",
+        "description": "package.form_generator",
+        "peekOfCode": "def generate_form(app_name, model_name):\n    # Chemin du dossier des formulaires dans l'application spécifiée\n    form_folder = Path(f\"{app_name}/forms\")\n    if not form_folder.exists():\n        form_folder.mkdir(parents=True)\n    # Nom du fichier pour le formulaire\n    form_filename = form_folder / f\"{model_name}Form.py\"\n    if form_filename.exists():\n        user_input = input(f\"Le fichier '{form_filename}' existe déjà. Voulez-vous l'écraser ? (O/n): \")\n        if user_input.lower() != 'o':",
+        "detail": "package.form_generator",
+        "documentation": {}
+    },
+    {
+        "label": "field_widgets",
+        "kind": 5,
+        "importPath": "package.form_generator",
+        "description": "package.form_generator",
+        "peekOfCode": "field_widgets = {\n    'DateField': \"forms.DateInput(attrs={'class': 'form-control datepicker'})\",\n    'DateTimeField': \"forms.DateTimeInput(attrs={'class': 'form-control datetimepicker'})\",\n    'CharField': \"forms.TextInput(attrs={'class': 'form-control custom-text-input'})\",\n    'EmailField': \"forms.EmailInput(attrs={'class': 'form-control custom-email-input'})\",\n    'BooleanField': \"forms.CheckboxInput(attrs={'class': 'form-control custom-checkbox'})\",\n    'IntegerField': \"forms.NumberInput(attrs={'class': 'form-control custom-number-input'})\",\n    'FloatField': \"forms.NumberInput(attrs={'class': 'form-control custom-float-input'})\",\n    'URLField': \"forms.URLInput(attrs={'class': 'form-control custom-url-input'})\",\n    'FileField': \"forms.ClearableFileInput(attrs={'class': 'form-control custom-file-input'})\",",
+        "detail": "package.form_generator",
+        "documentation": {}
+    },
+    {
+        "label": "print_yellow",
+        "kind": 2,
+        "importPath": "package.generate_django_app",
+        "description": "package.generate_django_app",
+        "peekOfCode": "def print_yellow(text):\n    print(Fore.YELLOW + text + Style.RESET_ALL)\ndef generate_django_app(app_name):\n    try:\n        # Créer l'application Django en utilisant django-admin\n        subprocess.run([\"django-admin\", \"startapp\", app_name], check=True)\n        print_yellow(f\"Django app '{app_name}' created successfully!\")\n        # Supprimer le fichier models.py\n        models_file = Path.cwd() / app_name / \"models.py\"\n        models_file.unlink()",
+        "detail": "package.generate_django_app",
+        "documentation": {}
+    },
+    {
+        "label": "generate_django_app",
+        "kind": 2,
+        "importPath": "package.generate_django_app",
+        "description": "package.generate_django_app",
+        "peekOfCode": "def generate_django_app(app_name):\n    try:\n        # Créer l'application Django en utilisant django-admin\n        subprocess.run([\"django-admin\", \"startapp\", app_name], check=True)\n        print_yellow(f\"Django app '{app_name}' created successfully!\")\n        # Supprimer le fichier models.py\n        models_file = Path.cwd() / app_name / \"models.py\"\n        models_file.unlink()\n        views_file = Path.cwd() / app_name / \"views.py\"\n        views_file.unlink()",
+        "detail": "package.generate_django_app",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "package.generate_django_app",
+        "description": "package.generate_django_app",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(description=\"Generate a Django app\")\n    parser.add_argument(\"app_name\", help=\"Name of the Django app to create\")\n    args = parser.parse_args()\n    generate_django_app(args.app_name)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "package.generate_django_app",
+        "documentation": {}
+    },
+    {
+        "label": "get_plural",
+        "kind": 2,
+        "importPath": "package.lib",
+        "description": "package.lib",
+        "peekOfCode": "def get_plural(word):\n    p = inflect.engine()\n    plural_word = p.plural(word)\n    return plural_word\ndef get_lower_plural(word):\n    p = inflect.engine()\n    plural_word = p.plural(word.lower())\n    return plural_word\ndef copy_file(source_file, destination_file):\n    try:",
+        "detail": "package.lib",
+        "documentation": {}
+    },
+    {
+        "label": "get_lower_plural",
+        "kind": 2,
+        "importPath": "package.lib",
+        "description": "package.lib",
+        "peekOfCode": "def get_lower_plural(word):\n    p = inflect.engine()\n    plural_word = p.plural(word.lower())\n    return plural_word\ndef copy_file(source_file, destination_file):\n    try:\n        with open(source_file, 'r') as source:\n            with open(destination_file, 'w') as destination:\n                content = source.read()\n                destination.write(content)",
+        "detail": "package.lib",
+        "documentation": {}
+    },
+    {
+        "label": "copy_file",
+        "kind": 2,
+        "importPath": "package.lib",
+        "description": "package.lib",
+        "peekOfCode": "def copy_file(source_file, destination_file):\n    try:\n        with open(source_file, 'r') as source:\n            with open(destination_file, 'w') as destination:\n                content = source.read()\n                destination.write(content)\n        print(f\"File copied from '{source_file}' to '{destination_file}' successfully.\")\n    except FileNotFoundError:\n        print(\"File not found. Please provide valid file names.\")\ndef parse_model_fields(file_path):",
+        "detail": "package.lib",
+        "documentation": {}
+    },
+    {
+        "label": "parse_model_fields",
+        "kind": 2,
+        "importPath": "package.lib",
+        "description": "package.lib",
+        "peekOfCode": "def parse_model_fields(file_path):\n    field_pattern = re.compile(r'^\\s*(\\w+)\\s*=\\s*models\\.(\\w+)\\(', re.MULTILINE)\n    fields = {}\n    with open(file_path, 'r') as file:\n        content = file.read()\n        matches = field_pattern.finditer(content)\n        for match in matches:\n            field_name = match.group(1)\n            field_type = match.group(2)\n            fields[field_name] = field_type",
+        "detail": "package.lib",
+        "documentation": {}
+    },
+    {
+        "label": "field_widgets",
+        "kind": 5,
+        "importPath": "package.lib",
+        "description": "package.lib",
+        "peekOfCode": "field_widgets = {\n    'DateField': \"forms.DateInput(attrs={'class': 'form-control datepicker'})\",\n    'DateTimeField': \"forms.DateTimeInput(attrs={'class': 'form-control datetimepicker'})\",\n    'CharField': \"forms.TextInput(attrs={'class': 'form-control custom-text-input'})\",\n    'EmailField': \"forms.EmailInput(attrs={'class': 'form-control custom-email-input'})\",\n    'BooleanField': \"forms.CheckboxInput(attrs={'class': 'form-control custom-checkbox'})\",\n    'IntegerField': \"forms.NumberInput(attrs={'class': 'form-control custom-number-input'})\",\n    'FloatField': \"forms.NumberInput(attrs={'class': 'form-control custom-float-input'})\",\n    'URLField': \"forms.URLInput(attrs={'class': 'form-control custom-url-input'})\",\n    'FileField': \"forms.ClearableFileInput(attrs={'class': 'form-control custom-file-input'})\",",
+        "detail": "package.lib",
+        "documentation": {}
+    },
+    {
+        "label": "print_yellow",
+        "kind": 2,
+        "importPath": "package.model_generator",
+        "description": "package.model_generator",
+        "peekOfCode": "def print_yellow(text):\n    print(Fore.YELLOW + text + Style.RESET_ALL)\n# Dictionnaire des types de champs Django correspondant aux choix possibles\nfield_choices = {\n    \"string\": 'models.CharField',\n    \"integer\": 'models.IntegerField',\n    \"text\": 'models.TextField',\n    \"boolean\": \"models.BooleanField\",\n    \"date\": \"models.DateField\",\n    \"datetime\": \"models.DateTimeField\",",
+        "detail": "package.model_generator",
+        "documentation": {}
+    },
+    {
+        "label": "is_valid_model_name",
+        "kind": 2,
+        "importPath": "package.model_generator",
+        "description": "package.model_generator",
+        "peekOfCode": "def is_valid_model_name(name):\n    return bool(re.match(r'^[a-zA-Z][_a-zA-Z0-9]*$', name))\ndef parse_model_fields(file_path):\n    field_pattern = re.compile(r'^\\s*(\\w+)\\s*=\\s*models\\.(\\w+)\\(', re.MULTILINE)\n    fields = {}\n    with open(file_path, 'r') as file:\n        content = file.read()\n        matches = field_pattern.finditer(content)\n        for match in matches:\n            field_name = match.group(1)",
+        "detail": "package.model_generator",
+        "documentation": {}
+    },
+    {
+        "label": "parse_model_fields",
+        "kind": 2,
+        "importPath": "package.model_generator",
+        "description": "package.model_generator",
+        "peekOfCode": "def parse_model_fields(file_path):\n    field_pattern = re.compile(r'^\\s*(\\w+)\\s*=\\s*models\\.(\\w+)\\(', re.MULTILINE)\n    fields = {}\n    with open(file_path, 'r') as file:\n        content = file.read()\n        matches = field_pattern.finditer(content)\n        for match in matches:\n            field_name = match.group(1)\n            field_type = match.group(2)\n            fields[field_name] = field_type",
+        "detail": "package.model_generator",
+        "documentation": {}
+    },
+    {
+        "label": "generate_model",
+        "kind": 2,
+        "importPath": "package.model_generator",
+        "description": "package.model_generator",
+        "peekOfCode": "def generate_model(app_name, model_name = False):\n    # model_name = \"\"\n    # print_yellow(\"===================   {app_name} : {model_name}   ===================\")\n    fields = [('updated_at', 'models.DateTimeField(auto_now=True)', {}),\n              ('created_at', 'models.DateTimeField(auto_now_add=True)', {})]\n    if not model_name:\n        while True:\n            model_name = questionary.text(\"Nom du modèle :\").ask().strip()\n            if not model_name:\n                print_yellow(\"Le nom du modèle ne peut pas être vide. Veuillez saisir un nom valide.\")",
+        "detail": "package.model_generator",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "package.model_generator",
+        "description": "package.model_generator",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(description=\"Générer un modèle Django interactif.\")\n    parser.add_argument(\"app_name\", help=\"Nom de l'application dans laquelle vous souhaitez générer le dossier models.\")\n    parser.add_argument(\"model_name\", help=\"Nom du model que vous souhaitez créer.\")\n    parser.add_argument(\"-v\", \"--version\", action=\"version\", version=\"%(prog)s 1.0\")\n    args = parser.parse_args()\n    generate_model(app_name=args.app_name, model_name=args.model_name)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "package.model_generator",
+        "documentation": {}
+    },
+    {
+        "label": "field_choices",
+        "kind": 5,
+        "importPath": "package.model_generator",
+        "description": "package.model_generator",
+        "peekOfCode": "field_choices = {\n    \"string\": 'models.CharField',\n    \"integer\": 'models.IntegerField',\n    \"text\": 'models.TextField',\n    \"boolean\": \"models.BooleanField\",\n    \"date\": \"models.DateField\",\n    \"datetime\": \"models.DateTimeField\",\n    \"email\": \"models.EmailField\",\n    \"float\": \"models.FloatField\",\n    \"decimal\": \"models.DecimalField\",",
+        "detail": "package.model_generator",
+        "documentation": {}
+    },
+    {
+        "label": "print_yellow",
+        "kind": 2,
+        "importPath": "package.module",
+        "description": "package.module",
+        "peekOfCode": "def print_yellow(text):\n    print(Fore.YELLOW + text + Style.RESET_ALL)\n# The directory containing this file\nBASE_DIR = pathlib.Path(__file__).parent.parent\ndef start(file_path, args):\n    subprocess.run([\"python\", Path(BASE_DIR / file_path ), args.app_name, args.model_name])\ndef make_project(args):\n    print_yellow(f\"Executing create:project command for {args.project_name}\")\n    # generate_entity()\n    subprocess.run([\"python\", ",
+        "detail": "package.module",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "kind": 2,
+        "importPath": "package.module",
+        "description": "package.module",
+        "peekOfCode": "def start(file_path, args):\n    subprocess.run([\"python\", Path(BASE_DIR / file_path ), args.app_name, args.model_name])\ndef make_project(args):\n    print_yellow(f\"Executing create:project command for {args.project_name}\")\n    # generate_entity()\n    subprocess.run([\"python\", \n                    Path(BASE_DIR / \"package/create_django_project.py\" ), \n                    args.project_name])\ndef make_app(args):\n    print_yellow(f\"Executing create:app command for app: {args.app_name}.\")",
+        "detail": "package.module",
+        "documentation": {}
+    },
+    {
+        "label": "make_project",
+        "kind": 2,
+        "importPath": "package.module",
+        "description": "package.module",
+        "peekOfCode": "def make_project(args):\n    print_yellow(f\"Executing create:project command for {args.project_name}\")\n    # generate_entity()\n    subprocess.run([\"python\", \n                    Path(BASE_DIR / \"package/create_django_project.py\" ), \n                    args.project_name])\ndef make_app(args):\n    print_yellow(f\"Executing create:app command for app: {args.app_name}.\")\n    # generate_entity()\n    subprocess.run([\"python\", ",
+        "detail": "package.module",
+        "documentation": {}
+    },
+    {
+        "label": "make_app",
+        "kind": 2,
+        "importPath": "package.module",
+        "description": "package.module",
+        "peekOfCode": "def make_app(args):\n    print_yellow(f\"Executing create:app command for app: {args.app_name}.\")\n    # generate_entity()\n    subprocess.run([\"python\", \n                    Path(BASE_DIR / \"package/generate_django_app.py\" ), \n                    args.app_name])\ndef make_entity(args):\n    print_yellow(f\"Executing make:entity command for app: {args.app_name} and model: {args.model_name}.\")\n    # generate_entity()\n    start(\"package/model_generator.py\", args)",
+        "detail": "package.module",
+        "documentation": {}
+    },
+    {
+        "label": "make_entity",
+        "kind": 2,
+        "importPath": "package.module",
+        "description": "package.module",
+        "peekOfCode": "def make_entity(args):\n    print_yellow(f\"Executing make:entity command for app: {args.app_name} and model: {args.model_name}.\")\n    # generate_entity()\n    start(\"package/model_generator.py\", args)\n    start(\"package/view_generator.py\", args)\n    start(\"package/template_generator.py\", args)\ndef make_form(args):\n    print_yellow(f\"Executing make:form command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/form_generator.py\", args)\ndef make_view(args):",
+        "detail": "package.module",
+        "documentation": {}
+    },
+    {
+        "label": "make_form",
+        "kind": 2,
+        "importPath": "package.module",
+        "description": "package.module",
+        "peekOfCode": "def make_form(args):\n    print_yellow(f\"Executing make:form command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/form_generator.py\", args)\ndef make_view(args):\n    print_yellow(f\"Executing make:view command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/view_generator.py\", args)\n    start(\"package/template_generator.py\", args)\ndef make_model(args):\n    print_yellow(f\"Executing make:model command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/model_generator.py\", args)",
+        "detail": "package.module",
+        "documentation": {}
+    },
+    {
+        "label": "make_view",
+        "kind": 2,
+        "importPath": "package.module",
+        "description": "package.module",
+        "peekOfCode": "def make_view(args):\n    print_yellow(f\"Executing make:view command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/view_generator.py\", args)\n    start(\"package/template_generator.py\", args)\ndef make_model(args):\n    print_yellow(f\"Executing make:model command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/model_generator.py\", args)\ndef make_entity_crud(args):\n    print_yellow(f\"Executing make:crud command for app: {args.app_name} and model: {args.model_name}.\")\n    start(\"package/from_generator.py\", args)",
+        "detail": "package.module",
+        "documentation": {}
+    },
+    {
+        "label": "make_model",
+        "kind": 2,
+        "importPath": "package.module",
+        "description": "package.module",
+        "peekOfCode": "def make_model(args):\n    print_yellow(f\"Executing make:model command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/model_generator.py\", args)\ndef make_entity_crud(args):\n    print_yellow(f\"Executing make:crud command for app: {args.app_name} and model: {args.model_name}.\")\n    start(\"package/from_generator.py\", args)\n    start(\"package/view_generator.py\", args)\n    start(\"package/template_generator.py\", args)\ndef make_service(args):\n    print_yellow(f\"Executing make:service command for app: {args.app_name} and service: {args.service_name}.\")",
+        "detail": "package.module",
+        "documentation": {}
+    },
+    {
+        "label": "make_entity_crud",
+        "kind": 2,
+        "importPath": "package.module",
+        "description": "package.module",
+        "peekOfCode": "def make_entity_crud(args):\n    print_yellow(f\"Executing make:crud command for app: {args.app_name} and model: {args.model_name}.\")\n    start(\"package/from_generator.py\", args)\n    start(\"package/view_generator.py\", args)\n    start(\"package/template_generator.py\", args)\ndef make_service(args):\n    print_yellow(f\"Executing make:service command for app: {args.app_name} and service: {args.service_name}.\")\n    subprocess.run([\"python\", \n                    Path(BASE_DIR / \"package/ecommerce_generator.py\" ), \n                    args.app_name, args.service_name])",
+        "detail": "package.module",
+        "documentation": {}
+    },
+    {
+        "label": "make_service",
+        "kind": 2,
+        "importPath": "package.module",
+        "description": "package.module",
+        "peekOfCode": "def make_service(args):\n    print_yellow(f\"Executing make:service command for app: {args.app_name} and service: {args.service_name}.\")\n    subprocess.run([\"python\", \n                    Path(BASE_DIR / \"package/ecommerce_generator.py\" ), \n                    args.app_name, args.service_name])\ndef main():\n    parser = argparse.ArgumentParser(description=\"Custom CLI for performing tasks\")\n    subparsers = parser.add_subparsers()\n    entity_parser = subparsers.add_parser(\"create:project\", help=\"Create an django project\")\n    entity_parser.add_argument(\"project_name\", help=\"Name of the project\")",
+        "detail": "package.module",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "package.module",
+        "description": "package.module",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(description=\"Custom CLI for performing tasks\")\n    subparsers = parser.add_subparsers()\n    entity_parser = subparsers.add_parser(\"create:project\", help=\"Create an django project\")\n    entity_parser.add_argument(\"project_name\", help=\"Name of the project\")\n    entity_parser.set_defaults(func=make_project)\n    entity_parser = subparsers.add_parser(\"create:app\", help=\"Create an django application\")\n    entity_parser.add_argument(\"app_name\", help=\"Name of the app\")\n    entity_parser.set_defaults(func=make_app)\n    entity_parser = subparsers.add_parser(\"make:entity\", help=\"Create an entity\")",
+        "detail": "package.module",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "package.module",
+        "description": "package.module",
+        "peekOfCode": "BASE_DIR = pathlib.Path(__file__).parent.parent\ndef start(file_path, args):\n    subprocess.run([\"python\", Path(BASE_DIR / file_path ), args.app_name, args.model_name])\ndef make_project(args):\n    print_yellow(f\"Executing create:project command for {args.project_name}\")\n    # generate_entity()\n    subprocess.run([\"python\", \n                    Path(BASE_DIR / \"package/create_django_project.py\" ), \n                    args.project_name])\ndef make_app(args):",
+        "detail": "package.module",
+        "documentation": {}
+    },
+    {
+        "label": "print_yellow",
+        "kind": 2,
+        "importPath": "package.template_generator",
+        "description": "package.template_generator",
+        "peekOfCode": "def print_yellow(text):\n    print(Fore.YELLOW + text + Style.RESET_ALL)\nfield_widgets = {\n    'DateField': \"forms.DateInput(attrs={'class': 'form-control datepicker'})\",\n    'DateTimeField': \"forms.DateTimeInput(attrs={'class': 'form-control datetimepicker'})\",\n    'CharField': \"forms.TextInput(attrs={'class': 'form-control custom-text-input'})\",\n    'EmailField': \"forms.EmailInput(attrs={'class': 'form-control custom-email-input'})\",\n    'BooleanField': \"forms.CheckboxInput(attrs={'class': 'form-control custom-checkbox'})\",\n    'IntegerField': \"forms.NumberInput(attrs={'class': 'form-control custom-number-input'})\",\n    'FloatField': \"forms.NumberInput(attrs={'class': 'form-control custom-float-input'})\",",
+        "detail": "package.template_generator",
+        "documentation": {}
+    },
+    {
+        "label": "get_plural",
+        "kind": 2,
+        "importPath": "package.template_generator",
+        "description": "package.template_generator",
+        "peekOfCode": "def get_plural(word):\n    p = inflect.engine()\n    plural_word = p.plural(word)\n    return plural_word\ndef get_lower_plural(word):\n    p = inflect.engine()\n    plural_word = p.plural(word.lower())\n    return plural_word\ndef copy_file(source_file, destination_file):\n    try:",
+        "detail": "package.template_generator",
+        "documentation": {}
+    },
+    {
+        "label": "get_lower_plural",
+        "kind": 2,
+        "importPath": "package.template_generator",
+        "description": "package.template_generator",
+        "peekOfCode": "def get_lower_plural(word):\n    p = inflect.engine()\n    plural_word = p.plural(word.lower())\n    return plural_word\ndef copy_file(source_file, destination_file):\n    try:\n        with open(source_file, 'r') as source:\n            with open(destination_file, 'w') as destination:\n                content = source.read()\n                destination.write(content)",
+        "detail": "package.template_generator",
+        "documentation": {}
+    },
+    {
+        "label": "copy_file",
+        "kind": 2,
+        "importPath": "package.template_generator",
+        "description": "package.template_generator",
+        "peekOfCode": "def copy_file(source_file, destination_file):\n    try:\n        with open(source_file, 'r') as source:\n            with open(destination_file, 'w') as destination:\n                content = source.read()\n                destination.write(content)\n        print_yellow(f\"File copied from '{source_file}' to '{destination_file}' successfully.\")\n    except FileNotFoundError:\n        print_yellow(\"File not found. Please provide valid file names.\")\ndef parse_model_fields(file_path):",
+        "detail": "package.template_generator",
+        "documentation": {}
+    },
+    {
+        "label": "parse_model_fields",
+        "kind": 2,
+        "importPath": "package.template_generator",
+        "description": "package.template_generator",
+        "peekOfCode": "def parse_model_fields(file_path):\n    field_pattern = re.compile(r'^\\s*(\\w+)\\s*=\\s*models\\.(\\w+)\\(', re.MULTILINE)\n    fields = {}\n    with open(file_path, 'r') as file:\n        content = file.read()\n        matches = field_pattern.finditer(content)\n        for match in matches:\n            field_name = match.group(1)\n            field_type = match.group(2)\n            fields[field_name] = field_type",
+        "detail": "package.template_generator",
+        "documentation": {}
+    },
+    {
+        "label": "create_view_paginator",
+        "kind": 2,
+        "importPath": "package.template_generator",
+        "description": "package.template_generator",
+        "peekOfCode": "def create_view_paginator(model_name, app_name):\n    template_folder = Path(f\"{app_name}/templates/{app_name}/{get_plural(model_name.lower())}\")\n    model_filename = f\"{app_name}/models/{model_name}.py\"\n    model_fields = parse_model_fields(model_filename)\n    index_content = '''\n                    {% if datas.has_other_pages %}\n                        <nav aria-label=\"Page navigation example\">\n                            <ul class=\"pagination\">\n                                {% if datas.has_previous %}\n                                    <li class=\"page-item\">",
+        "detail": "package.template_generator",
+        "documentation": {}
+    },
+    {
+        "label": "create_view_index",
+        "kind": 2,
+        "importPath": "package.template_generator",
+        "description": "package.template_generator",
+        "peekOfCode": "def create_view_index(model_name, app_name):\n    template_folder = Path(f\"{app_name}/templates/{app_name}/{get_plural(model_name.lower())}\")\n    model_filename = f\"{app_name}/models/{model_name}.py\"\n    model_fields = parse_model_fields(model_filename)\n    table_header = \"\"\n    for key, value in model_fields.items():\n        table_header += f\"    <th scope='col'>{key}</td>\\n\"\n    table_content = \"\"\n    for key, value in model_fields.items():\n        table_content += \"    <td scope='col'>{{ \"+ model_name.lower() +\".\"+key + \"}}</td>\\n\"",
+        "detail": "package.template_generator",
+        "documentation": {}
+    },
+    {
+        "label": "create_view_show",
+        "kind": 2,
+        "importPath": "package.template_generator",
+        "description": "package.template_generator",
+        "peekOfCode": "def create_view_show(model_name, app_name):\n    template_folder = Path(f\"{app_name}/templates/{app_name}/{get_plural(model_name.lower())}\")\n    model_filename = f\"{app_name}/models/{model_name}.py\"\n    model_fields = parse_model_fields(model_filename)\n    table_content = \"\"\n    for key, value in model_fields.items():\n        table_content += \"    <tr>\\n\"\n        table_content += \"        <td scope='col'> \"+key.capitalize() + \": </td>\\n\"\n        table_content += \"        <td scope='col'>{{ \"+ model_name.lower() +\".\"+key + \"}}</td>\"\n        table_content += \"    </tr>\"",
+        "detail": "package.template_generator",
+        "documentation": {}
+    },
+    {
+        "label": "create_view_edit",
+        "kind": 2,
+        "importPath": "package.template_generator",
+        "description": "package.template_generator",
+        "peekOfCode": "def create_view_edit(model_name, app_name):\n    template_folder = Path(f\"{app_name}/templates/{app_name}/{get_plural(model_name.lower())}\")\n    form_link = f\"{model_name.lower()}_form.html\"\n    # model_filename = f\"{app_name}/models/{model_name}.py\"\n    # model_fields = parse_model_fields(model_filename)\n    index_content = '''{% extends \"''' + app_name + '''/admin.html\" %}\n    {% load static %}\n    {% block content %}\n    {% if messages %}\n        {% for message in messages %}",
+        "detail": "package.template_generator",
+        "documentation": {}
+    },
+    {
+        "label": "create_view_create",
+        "kind": 2,
+        "importPath": "package.template_generator",
+        "description": "package.template_generator",
+        "peekOfCode": "def create_view_create(model_name, app_name):\n    template_folder = Path(f\"{app_name}/templates/{app_name}/{get_plural(model_name.lower())}\")\n    form_link = f\"{model_name.lower()}_form.html\"\n    # model_filename = f\"{app_name}/models/{model_name}.py\"\n    # model_fields = parse_model_fields(model_filename)\n    index_content = '''{% extends \"''' + app_name + '''/admin.html\" %}\n    {% load static %}\n    {% block content %}\n    {% if messages %}\n        {% for message in messages %}",
+        "detail": "package.template_generator",
+        "documentation": {}
+    },
+    {
+        "label": "create_view_form",
+        "kind": 2,
+        "importPath": "package.template_generator",
+        "description": "package.template_generator",
+        "peekOfCode": "def create_view_form(model_name, app_name):\n    template_folder = Path(f\"{app_name}/templates/{app_name}/{get_plural(model_name.lower())}\")\n    model_filename = f\"{app_name}/models/{model_name}.py\"\n    model_fields = parse_model_fields(model_filename)\n    form_content = \"\"\n    for key, value in model_fields.items():\n        form_content += \"    <div class='form-group'>\\n\"\n        form_content += f\"        <label for='{key}'> { key.capitalize() }: </label>\\n\"\n        form_content += \"        {{ form.\"+key+\" }}\\n\"\n        form_content += '''",
+        "detail": "package.template_generator",
+        "documentation": {}
+    },
+    {
+        "label": "generate_templates",
+        "kind": 2,
+        "importPath": "package.template_generator",
+        "description": "package.template_generator",
+        "peekOfCode": "def generate_templates(model_name, app_name):\n    template_folder = Path(f\"{app_name}/templates/{app_name}/{get_plural(model_name.lower())}\")\n    if not template_folder.exists():\n        template_folder.mkdir(parents=True)\n    # paginator template\n    create_view_paginator(model_name, app_name)\n    # Index template\n    create_view_index(model_name, app_name)\n    # Detail template\n    create_view_show(model_name, app_name)",
+        "detail": "package.template_generator",
+        "documentation": {}
+    },
+    {
+        "label": "field_widgets",
+        "kind": 5,
+        "importPath": "package.template_generator",
+        "description": "package.template_generator",
+        "peekOfCode": "field_widgets = {\n    'DateField': \"forms.DateInput(attrs={'class': 'form-control datepicker'})\",\n    'DateTimeField': \"forms.DateTimeInput(attrs={'class': 'form-control datetimepicker'})\",\n    'CharField': \"forms.TextInput(attrs={'class': 'form-control custom-text-input'})\",\n    'EmailField': \"forms.EmailInput(attrs={'class': 'form-control custom-email-input'})\",\n    'BooleanField': \"forms.CheckboxInput(attrs={'class': 'form-control custom-checkbox'})\",\n    'IntegerField': \"forms.NumberInput(attrs={'class': 'form-control custom-number-input'})\",\n    'FloatField': \"forms.NumberInput(attrs={'class': 'form-control custom-float-input'})\",\n    'URLField': \"forms.URLInput(attrs={'class': 'form-control custom-url-input'})\",\n    'FileField': \"forms.ClearableFileInput(attrs={'class': 'form-control custom-file-input'})\",",
+        "detail": "package.template_generator",
+        "documentation": {}
+    },
+    {
+        "label": "print_yellow",
+        "kind": 2,
+        "importPath": "package.view_generator",
+        "description": "package.view_generator",
+        "peekOfCode": "def print_yellow(text):\n    print(Fore.YELLOW + text + Style.RESET_ALL)\nfield_widgets = {\n    'DateField': \"forms.DateInput(attrs={'class': 'form-control datepicker'})\",\n    'DateTimeField': \"forms.DateTimeInput(attrs={'class': 'form-control datetimepicker'})\",\n    'CharField': \"forms.TextInput(attrs={'class': 'form-control custom-text-input'})\",\n    'EmailField': \"forms.EmailInput(attrs={'class': 'form-control custom-email-input'})\",\n    'BooleanField': \"forms.CheckboxInput(attrs={'class': 'form-control custom-checkbox'})\",\n    'IntegerField': \"forms.NumberInput(attrs={'class': 'form-control custom-number-input'})\",\n    'FloatField': \"forms.NumberInput(attrs={'class': 'form-control custom-float-input'})\",",
+        "detail": "package.view_generator",
+        "documentation": {}
+    },
+    {
+        "label": "get_plural",
+        "kind": 2,
+        "importPath": "package.view_generator",
+        "description": "package.view_generator",
+        "peekOfCode": "def get_plural(word):\n    p = inflect.engine()\n    plural_word = p.plural(word)\n    return plural_word\ndef get_lower_plural(word):\n    p = inflect.engine()\n    plural_word = p.plural(word.lower())\n    return plural_word\ndef copy_file(source_file, destination_file):\n    try:",
+        "detail": "package.view_generator",
+        "documentation": {}
+    },
+    {
+        "label": "get_lower_plural",
+        "kind": 2,
+        "importPath": "package.view_generator",
+        "description": "package.view_generator",
+        "peekOfCode": "def get_lower_plural(word):\n    p = inflect.engine()\n    plural_word = p.plural(word.lower())\n    return plural_word\ndef copy_file(source_file, destination_file):\n    try:\n        with open(source_file, 'r') as source:\n            with open(destination_file, 'w') as destination:\n                content = source.read()\n                destination.write(content)",
+        "detail": "package.view_generator",
+        "documentation": {}
+    },
+    {
+        "label": "copy_file",
+        "kind": 2,
+        "importPath": "package.view_generator",
+        "description": "package.view_generator",
+        "peekOfCode": "def copy_file(source_file, destination_file):\n    try:\n        with open(source_file, 'r') as source:\n            with open(destination_file, 'w') as destination:\n                content = source.read()\n                destination.write(content)\n        print_yellow(f\"File copied from '{source_file}' to '{destination_file}' successfully.\")\n    except FileNotFoundError:\n        print_yellow(\"File not found. Please provide valid file names.\")\ndef parse_model_fields(file_path):",
+        "detail": "package.view_generator",
+        "documentation": {}
+    },
+    {
+        "label": "parse_model_fields",
+        "kind": 2,
+        "importPath": "package.view_generator",
+        "description": "package.view_generator",
+        "peekOfCode": "def parse_model_fields(file_path):\n    field_pattern = re.compile(r'^\\s*(\\w+)\\s*=\\s*models\\.(\\w+)\\(', re.MULTILINE)\n    fields = {}\n    with open(file_path, 'r') as file:\n        content = file.read()\n        matches = field_pattern.finditer(content)\n        for match in matches:\n            field_name = match.group(1)\n            field_type = match.group(2)\n            fields[field_name] = field_type",
+        "detail": "package.view_generator",
+        "documentation": {}
+    },
+    {
+        "label": "generate_view",
+        "kind": 2,
+        "importPath": "package.view_generator",
+        "description": "package.view_generator",
+        "peekOfCode": "def generate_view(app_name, model_name):\n    # Chemin du dossier des vues dans l'application spécifiée\n    views_folder = Path(f\"{app_name}/views\")\n    if not views_folder.exists():\n        views_folder.mkdir(parents=True)\n    # Nom du fichier pour la vue\n    view_filename = views_folder / f\"{model_name}View.py\"\n    if view_filename.exists():\n        user_input = input(f\"Le fichier '{view_filename}' existe déjà. Voulez-vous l'écraser ? (O/n): \")\n        if user_input.lower() != 'o':",
+        "detail": "package.view_generator",
+        "documentation": {}
+    },
+    {
+        "label": "field_widgets",
+        "kind": 5,
+        "importPath": "package.view_generator",
+        "description": "package.view_generator",
+        "peekOfCode": "field_widgets = {\n    'DateField': \"forms.DateInput(attrs={'class': 'form-control datepicker'})\",\n    'DateTimeField': \"forms.DateTimeInput(attrs={'class': 'form-control datetimepicker'})\",\n    'CharField': \"forms.TextInput(attrs={'class': 'form-control custom-text-input'})\",\n    'EmailField': \"forms.EmailInput(attrs={'class': 'form-control custom-email-input'})\",\n    'BooleanField': \"forms.CheckboxInput(attrs={'class': 'form-control custom-checkbox'})\",\n    'IntegerField': \"forms.NumberInput(attrs={'class': 'form-control custom-number-input'})\",\n    'FloatField': \"forms.NumberInput(attrs={'class': 'form-control custom-float-input'})\",\n    'URLField': \"forms.URLInput(attrs={'class': 'form-control custom-url-input'})\",\n    'FileField': \"forms.ClearableFileInput(attrs={'class': 'form-control custom-file-input'})\",",
+        "detail": "package.view_generator",
+        "documentation": {}
+    },
+    {
+        "label": "HERE",
+        "kind": 5,
+        "importPath": "setup",
+        "description": "setup",
+        "peekOfCode": "HERE = pathlib.Path(__file__).parent\n# The text of the README file\nREADME = (HERE / \"README.md\").read_text()\nsetup(\n    name='mudey-django',\n    version='1.4',\n    packages=find_packages(),\n    description='CLI Django',\n    author='Espero-Soft Informatiques',\n    author_email='contact@espero-soft.com',",
+        "detail": "setup",
+        "documentation": {}
+    },
+    {
+        "label": "README",
+        "kind": 5,
+        "importPath": "setup",
+        "description": "setup",
+        "peekOfCode": "README = (HERE / \"README.md\").read_text()\nsetup(\n    name='mudey-django',\n    version='1.4',\n    packages=find_packages(),\n    description='CLI Django',\n    author='Espero-Soft Informatiques',\n    author_email='contact@espero-soft.com',\n    long_description=README,\n    long_description_content_type='text/markdown',",
+        "detail": "setup",
         "documentation": {}
     }
 ]

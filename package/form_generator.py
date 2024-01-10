@@ -1,9 +1,13 @@
 import argparse
+import re
 from django import forms
 from pathlib import Path
-import re
+from colorama import Fore, Style
 
-# Dictionnaire associant les champs aux widgets correspondants
+
+def print_yellow(text):
+    print(Fore.YELLOW + text + Style.RESET_ALL)
+
 field_widgets = {
     'DateField': "forms.DateInput(attrs={'class': 'form-control datepicker'})",
     'DateTimeField': "forms.DateTimeInput(attrs={'class': 'form-control datetimepicker'})",
@@ -39,6 +43,7 @@ def parse_model_fields(file_path):
 
     return fields
 
+
 def generate_form(app_name, model_name):
     # Chemin du dossier des formulaires dans l'application spécifiée
     form_folder = Path(f"{app_name}/forms")
@@ -53,21 +58,21 @@ def generate_form(app_name, model_name):
     if form_filename.exists():
         user_input = input(f"Le fichier '{form_filename}' existe déjà. Voulez-vous l'écraser ? (O/n): ")
         if user_input.lower() != 'o':
-            print("Annulation de la création du formulaire.")
+            print_yellow("Annulation de la création du formulaire.")
             return
 
     # Génération du contenu du formulaire Django
     model_filename = f"{app_name}/models/{model_name}.py"
     model_fields = parse_model_fields(model_filename)
     
-    form_content = f"from django import forms\nfrom {app_name}.models import {model_name}\n\n"
+    form_content = f"from django import forms\nfrom {app_name}.models.{model_name} import {model_name}\n\n"
     form_content += f"class {model_name}Form(forms.ModelForm):\n"
     form_content += f"    class Meta:\n"
     form_content += f"        model = {model_name}\n"
     form_content += f"        fields = {tuple(model_fields.keys())}\n\n"
 
     # Ajout des widgets aux champs spécifiques du modèle
-    print(model_fields)
+    # print_yellow(model_fields)
     form_content += "        widgets = {\n"
     for field_name, field_type in model_fields.items():
         field_type = field_type
@@ -79,7 +84,7 @@ def generate_form(app_name, model_name):
     with open(form_filename, "w") as form_file:
         form_file.write(form_content)
 
-    print(f"Le formulaire {model_name}Form a été créé dans {form_folder} !")
+    print_yellow(f"Le formulaire {model_name}Form a été créé dans {form_folder} !")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Générer un formulaire Django interactif.")
@@ -88,6 +93,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     try:
-        generate_form(args.model_name, args.app_name)
+        generate_form(model_name=args.model_name, app_name=args.app_name)
     except LookupError:
-        print("L'application spécifiée est introuvable.")
+        print_yellow("L'application spécifiée est introuvable.")
