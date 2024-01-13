@@ -391,11 +391,36 @@
         "documentation": {}
     },
     {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "find_packages",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
         "label": "open",
         "importPath": "io",
         "description": "io",
         "isExtraImport": true,
         "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
         "documentation": {}
     },
     {
@@ -1465,7 +1490,7 @@
         "kind": 5,
         "importPath": "setup",
         "description": "setup",
-        "peekOfCode": "HERE = pathlib.Path(__file__).parent\n# The text of the README file\nREADME = (HERE / \"README.md\").read_text()\nsetup(\n    name='mudey-django',\n    version='1.7',\n    packages=find_packages(),\n    description='CLI Django',\n    author='Espero-Soft Informatiques',\n    author_email='contact@espero-soft.com',",
+        "peekOfCode": "HERE = pathlib.Path(__file__).parent\n# The text of the README file\nREADME = (HERE / \"README.md\").read_text(encoding=\"utf-8\")\nsetup(\n    name='mudey-django',\n    version='1.9',\n    packages=find_packages(),\n    description='CLI Django',\n    author='Espero-Soft Informatiques',\n    author_email='contact@espero-soft.com',",
         "detail": "setup",
         "documentation": {}
     },
@@ -1474,7 +1499,7 @@
         "kind": 5,
         "importPath": "setup",
         "description": "setup",
-        "peekOfCode": "README = (HERE / \"README.md\").read_text()\nsetup(\n    name='mudey-django',\n    version='1.7',\n    packages=find_packages(),\n    description='CLI Django',\n    author='Espero-Soft Informatiques',\n    author_email='contact@espero-soft.com',\n    long_description=README,\n    long_description_content_type='text/markdown',",
+        "peekOfCode": "README = (HERE / \"README.md\").read_text(encoding=\"utf-8\")\nsetup(\n    name='mudey-django',\n    version='1.9',\n    packages=find_packages(),\n    description='CLI Django',\n    author='Espero-Soft Informatiques',\n    author_email='contact@espero-soft.com',\n    long_description=README,\n    long_description_content_type='text/markdown',",
         "detail": "setup",
         "documentation": {}
     }

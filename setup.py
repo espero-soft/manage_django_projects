@@ -7,14 +7,14 @@ import pathlib
 # The directory containing this file
 HERE = pathlib.Path(__file__).parent
 # The text of the README file
-README = (HERE / "README.md").read_text()
+README = (HERE / "README.md").read_text(encoding="utf-8")
 
 
 
 
 setup(
     name='mudey-django',
-    version='1.7',
+    version='1.9',
     packages=find_packages(),
     description='CLI Django',
     author='Espero-Soft Informatiques',
