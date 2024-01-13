@@ -4,8 +4,6 @@ import inflect
 import re
 
 
-def print_yellow(text):
-    print(text)
 
 
 field_widgets = {
@@ -43,9 +41,9 @@ def copy_file(source_file, destination_file):
             with open(destination_file, 'w') as destination:
                 content = source.read()
                 destination.write(content)
-        print_yellow(f"File copied from '{source_file}' to '{destination_file}' successfully.")
+        print(f"File copied from '{source_file}' to '{destination_file}' successfully.")
     except FileNotFoundError:
-        print_yellow("File not found. Please provide valid file names.")
+        print("File not found. Please provide valid file names.")
 
 def parse_model_fields(file_path):
     field_pattern = re.compile(r'^\s*(\w+)\s*=\s*models\.(\w+)\(', re.MULTILINE)
@@ -80,7 +78,7 @@ def generate_view(app_name, model_name):
     if view_filename.exists():
         user_input = input(f"Le fichier '{view_filename}' existe déjà. Voulez-vous l'écraser ? (O/n): ")
         if user_input.lower() != 'o':
-            print_yellow("Annulation de la création de la vue.")
+            print("Annulation de la création de la vue.")
             return
 
     # Génération du contenu de la vue Django
@@ -146,7 +144,7 @@ def generate_view(app_name, model_name):
     with open(view_filename, "w") as view_file:
         view_file.write(view_content)
 
-    print_yellow(f"La vue {model_name}View a été créée dans {views_folder} !")
+    print(f"La vue {model_name}View a été créée dans {views_folder} !")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Générer une vue Django pour un modèle.")
@@ -157,4 +155,4 @@ if __name__ == "__main__":
     try:
         generate_view(model_name=args.model_name, app_name=args.app_name)
     except LookupError:
-        print_yellow("L'application spécifiée est introuvable.")
+        print("L'application spécifiée est introuvable.")

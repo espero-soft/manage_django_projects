@@ -6,8 +6,7 @@ from pathlib import Path
 import re
 
 
-def print_yellow(text):
-    print(text)
+
 
 # Dictionnaire des types de champs Django correspondant aux choix possibles
 field_choices = {
@@ -58,16 +57,16 @@ def parse_model_fields(file_path):
 
 def generate_model(app_name, model_name = False):
     # model_name = ""
-    # print_yellow("===================   {app_name} : {model_name}   ===================")
+    # print("===================   {app_name} : {model_name}   ===================")
     fields = [('updated_at', 'models.DateTimeField(auto_now=True)', {}),
               ('created_at', 'models.DateTimeField(auto_now_add=True)', {})]
     if not model_name:
         while True:
             model_name = questionary.text("Nom du modèle :").ask().strip()
             if not model_name:
-                print_yellow("Le nom du modèle ne peut pas être vide. Veuillez saisir un nom valide.")
+                print("Le nom du modèle ne peut pas être vide. Veuillez saisir un nom valide.")
             elif not is_valid_model_name(model_name):
-                print_yellow("Le nom du modèle n'est pas valide. Veuillez utiliser un nom de classe Python valide.")
+                print("Le nom du modèle n'est pas valide. Veuillez utiliser un nom de classe Python valide.")
             else:
                 break
    
@@ -85,9 +84,9 @@ def generate_model(app_name, model_name = False):
     
     if model_file_path.exists():
         old_fields = parse_model_fields(model_file_path)
-        # print_yellow("==== fields =====")
-        # print_yellow(old_fields)
-        print_yellow(f"Le fichier '{model_filename}' existe déjà. Ajouter des champs")
+        # print("==== fields =====")
+        # print(old_fields)
+        print(f"Le fichier '{model_filename}' existe déjà. Ajouter des champs")
         
 
         
@@ -100,9 +99,9 @@ def generate_model(app_name, model_name = False):
         field_type = questionary.text("Type du champ (tapez '?' pour voir la liste des types, appuyez sur Entrée pour 'string') :").ask().strip()
         while field_type not in field_choices and field_type != "":
             if field_type == '?':
-                print_yellow("Types disponibles : ", ', '.join(field_choices.keys()))
+                print("Types disponibles : ", ', '.join(field_choices.keys()))
             else:
-                print_yellow("Types disponibles : ", ', '.join(field_choices.keys()))
+                print("Types disponibles : ", ', '.join(field_choices.keys()))
             field_type = questionary.text("Type du champ (tapez '?' pour voir la liste des types, appuyez sur Entrée pour 'string') :").ask().strip()
  
         if field_type == "":
@@ -141,7 +140,7 @@ def generate_model(app_name, model_name = False):
 
         # Extraire les noms des champs existants
         existing_fields = [line.strip().split()[0] for line in existing_code.splitlines() if line.strip().startswith(model_name.capitalize())]
-        # print_yellow((existing_fields,))
+        # print((existing_fields,))
 
         # Vérifier les nouveaux champs par rapport aux champs existants
         fields_to_add = [(field_name, field_type, field_options) for field_name, field_type, field_options in fields if field_name not in existing_fields]
@@ -156,14 +155,13 @@ def generate_model(app_name, model_name = False):
                         last.append((field_name, field_type, field_options))
                         continue
                     options_string = ', '.join([f"{key}={value}" for key, value in field_options.items()])
-                    model_file.write(f"    {field_name} = {field_type}({options_string})\n")
+                    if field_type == "models.CharField" :
+                        model_file.write(f"    {field_name} = {field_type}(max_length=60, {options_string})\n")
+                    else:
+                        model_file.write(f"    {field_name} = {field_type}({options_string})\n")
                     
-                # for field_name, field_type, field_options in last:
-                #     options_string = ', '.join([f"{key}={value}" for key, value in field_options.items()])
-                #     model_file.write(f"    {field_name} = {field_type}({options_string})\n")
-                
-                    
-        print_yellow(f"Le modèle {model_name.capitalize()} a été mis à jour avec de nouveaux champs dans {model_filename} !")
+
+        print(f"Le modèle {model_name.capitalize()} a été mis à jour avec de nouveaux champs dans {model_filename} !")
     else:
         # ... Code pour créer le modèle s'il n'existe pas encore ...
         model_code = f"from django.db import models\n\n"
@@ -190,8 +188,8 @@ def generate_model(app_name, model_name = False):
                 for field_name, field_type, field_options in last:
                     model_file.write(f"    {field_name} = {field_type}\n")
                 
-        print_yellow(f"Le modèle {model_name.capitalize()} a été créé dans {model_filename} !")
-    # print_yellow(f"Le modèle {model_name.capitalize()} a été créé dans {model_filename} !")
+        print(f"Le modèle {model_name.capitalize()} a été créé dans {model_filename} !")
+    # print(f"Le modèle {model_name.capitalize()} a été créé dans {model_filename} !")
 
 def main():
     parser = argparse.ArgumentParser(description="Générer un modèle Django interactif.")

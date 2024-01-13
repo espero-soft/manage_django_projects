@@ -3,14 +3,12 @@ import subprocess
 from pathlib import Path
 
 
-def print_yellow(text):
-    print(text)
 
 def generate_django_app(app_name):
     try:
         # Créer l'application Django en utilisant django-admin
         subprocess.run(["django-admin", "startapp", app_name], check=True)
-        print_yellow(f"Django app '{app_name}' created successfully!")
+        print(f"Django app '{app_name}' created successfully!")
         
         # Supprimer le fichier models.py
         models_file = Path.cwd() / app_name / "models.py"
@@ -23,7 +21,7 @@ def generate_django_app(app_name):
         views_dir = Path.cwd() / app_name / "views"
         models_dir.mkdir(exist_ok=True)
         views_dir.mkdir(exist_ok=True)
-        print_yellow(f"Directory '{models_dir}' created successfully!")
+        print(f"Directory '{models_dir}' created successfully!")
         
         
         # Créer le fichier urls.py avec les URL patterns
@@ -35,11 +33,11 @@ def generate_django_app(app_name):
                 f.write("urlpatterns = [\n")
                 f.write("    path('', views.index, name='home'),\n")
                 f.write("]\n")
-            print_yellow(f"File '{urls_file}' created successfully!")
+            print(f"File '{urls_file}' created successfully!")
 
 
     except subprocess.CalledProcessError as e:
-        print_yellow(f"Error occurred while creating Django app '{app_name}': {e}")
+        print(f"Error occurred while creating Django app '{app_name}': {e}")
         return
 
 def main():

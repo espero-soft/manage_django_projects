@@ -3,8 +3,7 @@ import subprocess
 from pathlib import Path
 
 
-def print_yellow(text):
-    print(text)
+
 
 def check_django_installation():
     try:
@@ -24,9 +23,9 @@ def install_django():
 def create_django_project(project_name):
     # Vérifier si Django est installé, sinon l'installer
     if not check_django_installation():
-        print_yellow("Django not found. Installing Django...")
+        print("Django not found. Installing Django...")
         if not install_django():
-            print_yellow("Failed to install Django. Aborting project creation.")
+            print("Failed to install Django. Aborting project creation.")
             return
 
     try:
@@ -36,7 +35,7 @@ def create_django_project(project_name):
 
         # Création du projet Django dans le répertoire spécifié
         subprocess.run(["django-admin", "startproject", "config", str(project_dir)], check=True)
-        print_yellow(f"Project '{project_name}' created successfully in '{project_dir}'!")
+        print(f"Project '{project_name}' created successfully in '{project_dir}'!")
 
         # Configuration des paramètres dans settings.py
         BASE_DIR = Path.cwd() / project_name
@@ -54,7 +53,7 @@ def create_django_project(project_name):
                 f.write(f"MEDIA_ROOT = BASE_DIR / '{MEDIA_ROOT}'\n")
 
     except subprocess.CalledProcessError as e:
-        print_yellow(f"Error occurred while creating project '{project_name}': {e}")
+        print(f"Error occurred while creating project '{project_name}': {e}")
         return
 
 def main():

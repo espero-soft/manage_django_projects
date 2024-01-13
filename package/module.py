@@ -5,8 +5,7 @@ from pathlib import Path
 
 
 
-def print_yellow(text):
-    print(text)
+
 
 # The directory containing this file
 BASE_DIR = pathlib.Path(__file__).parent.parent
@@ -20,47 +19,47 @@ def start(file_path, args):
 
     
 def make_project(args):
-    print_yellow(f"Executing create:project command for {args.project_name}")
+    print(f"Executing create:project command for {args.project_name}")
     # generate_entity()
     subprocess.run(["python", 
                     Path(BASE_DIR / "package/create_django_project.py" ), 
                     args.project_name])
     
 def make_app(args):
-    print_yellow(f"Executing create:app command for app: {args.app_name}.")
+    print(f"Executing create:app command for app: {args.app_name}.")
     # generate_entity()
     subprocess.run(["python", 
                     Path(BASE_DIR / "package/generate_django_app.py" ), 
                     args.app_name])
     
 def make_entity(args):
-    print_yellow(f"Executing make:entity command for app: {args.app_name} and model: {args.model_name}.")
+    print(f"Executing make:entity command for app: {args.app_name} and model: {args.model_name}.")
     # generate_entity()
     start("package/model_generator.py", args)
     start("package/view_generator.py", args)
     start("package/template_generator.py", args)
 
 def make_form(args):
-    print_yellow(f"Executing make:form command for app: {args.app_name} and model: {args.model_name}")
+    print(f"Executing make:form command for app: {args.app_name} and model: {args.model_name}")
     start("package/form_generator.py", args)
 
 def make_view(args):
-    print_yellow(f"Executing make:view command for app: {args.app_name} and model: {args.model_name}")
+    print(f"Executing make:view command for app: {args.app_name} and model: {args.model_name}")
     start("package/view_generator.py", args)
     start("package/template_generator.py", args)
     
 def make_model(args):
-    print_yellow(f"Executing make:model command for app: {args.app_name} and model: {args.model_name}")
+    print(f"Executing make:model command for app: {args.app_name} and model: {args.model_name}")
     start("package/model_generator.py", args)
 
 def make_entity_crud(args):
-    print_yellow(f"Executing make:crud command for app: {args.app_name} and model: {args.model_name}.")
+    print(f"Executing make:crud command for app: {args.app_name} and model: {args.model_name}.")
     start("package/from_generator.py", args)
     start("package/view_generator.py", args)
     start("package/template_generator.py", args)
     
 def make_service(args):
-    print_yellow(f"Executing make:service command for app: {args.app_name} and service: {args.service_name}.")
+    print(f"Executing make:service command for app: {args.app_name} and service: {args.service_name}.")
  
     subprocess.run(["python", 
                     Path(BASE_DIR / "package/ecommerce_generator.py" ), 

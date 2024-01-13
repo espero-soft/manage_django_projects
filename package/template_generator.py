@@ -4,8 +4,7 @@ import inflect
 import re
 
 
-def print_yellow(text):
-    print(text)
+
 
 
 field_widgets = {
@@ -43,9 +42,9 @@ def copy_file(source_file, destination_file):
             with open(destination_file, 'w') as destination:
                 content = source.read()
                 destination.write(content)
-        print_yellow(f"File copied from '{source_file}' to '{destination_file}' successfully.")
+        print(f"File copied from '{source_file}' to '{destination_file}' successfully.")
     except FileNotFoundError:
-        print_yellow("File not found. Please provide valid file names.")
+        print("File not found. Please provide valid file names.")
 
 def parse_model_fields(file_path):
     field_pattern = re.compile(r'^\s*(\w+)\s*=\s*models\.(\w+)\(', re.MULTILINE)
@@ -390,7 +389,7 @@ def generate_templates(model_name, app_name):
     # Edit template
     create_view_form(model_name, app_name)
         
-    print_yellow(f"Templates for {model_name} generated in {template_folder}!")
+    print(f"Templates for {model_name} generated in {template_folder}!")
     
     
 if __name__ == "__main__":
@@ -402,4 +401,4 @@ if __name__ == "__main__":
     try:
         generate_templates(model_name=args.model_name, app_name=args.app_name)
     except LookupError:
-        print_yellow("L'application spécifiée est introuvable.")
+        print("L'application spécifiée est introuvable.")

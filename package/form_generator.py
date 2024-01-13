@@ -4,8 +4,6 @@ from django import forms
 from pathlib import Path
 
 
-def print_yellow(text):
-    print(text)
 
 field_widgets = {
     'DateField': "forms.DateInput(attrs={'class': 'form-control datepicker'})",
@@ -57,7 +55,7 @@ def generate_form(app_name, model_name):
     if form_filename.exists():
         user_input = input(f"Le fichier '{form_filename}' existe déjà. Voulez-vous l'écraser ? (O/n): ")
         if user_input.lower() != 'o':
-            print_yellow("Annulation de la création du formulaire.")
+            print("Annulation de la création du formulaire.")
             return
 
     # Génération du contenu du formulaire Django
@@ -71,7 +69,7 @@ def generate_form(app_name, model_name):
     form_content += f"        fields = {tuple(model_fields.keys())}\n\n"
 
     # Ajout des widgets aux champs spécifiques du modèle
-    # print_yellow(model_fields)
+    # print(model_fields)
     form_content += "        widgets = {\n"
     for field_name, field_type in model_fields.items():
         field_type = field_type
@@ -83,7 +81,7 @@ def generate_form(app_name, model_name):
     with open(form_filename, "w") as form_file:
         form_file.write(form_content)
 
-    print_yellow(f"Le formulaire {model_name}Form a été créé dans {form_folder} !")
+    print(f"Le formulaire {model_name}Form a été créé dans {form_folder} !")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Générer un formulaire Django interactif.")
@@ -94,4 +92,4 @@ if __name__ == "__main__":
     try:
         generate_form(model_name=args.model_name, app_name=args.app_name)
     except LookupError:
-        print_yellow("L'application spécifiée est introuvable.")
+        print("L'application spécifiée est introuvable.")

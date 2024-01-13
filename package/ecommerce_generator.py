@@ -5,9 +5,6 @@ import os
 
 
 
-def print_yellow(text):
-    print(text)
-
 def getCart(app_name):
     return '''
 from django.contrib import messages
@@ -249,24 +246,24 @@ def generate_django_services(app_name, service_name):
     
     if not os.path.exists(data_path):
         os.makedirs(data_path)
-        print_yellow(f"Dossier '{data_path}' créé.")
+        print(f"Dossier '{data_path}' créé.")
 
     if os.path.exists(data_file_path):
-        print_yellow(f"Le fichier '{data_file_path}' existe déjà.")
+        print(f"Le fichier '{data_file_path}' existe déjà.")
         return
     
     if service_name not in services:
-        print_yellow(f"Le service '{service_name}' n'est pas pris en charge.")
+        print(f"Le service '{service_name}' n'est pas pris en charge.")
         return
     
     try:
         with open(data_file_path, 'w') as file:
             data = services[service_name](app_name)
             file.write(data)
-            print_yellow(f"Service '{service_name}' pour l'application '{app_name}' a été créé avec succès.")
+            print(f"Service '{service_name}' pour l'application '{app_name}' a été créé avec succès.")
     except Exception as e:
-        print_yellow(f"Une erreur est survenue lors de la création du service '{service_name}' pour l'application '{app_name}':")
-        print_yellow(e)
+        print(f"Une erreur est survenue lors de la création du service '{service_name}' pour l'application '{app_name}':")
+        print(e)
         
 
 def main():

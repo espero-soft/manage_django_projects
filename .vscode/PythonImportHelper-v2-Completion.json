@@ -1,5 +1,37 @@
 [
     {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "argparse",
         "kind": 6,
         "isExtraImport": true,
@@ -155,14 +187,6 @@
         "documentation": {}
     },
     {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -181,14 +205,6 @@
     },
     {
         "label": "messages",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
-        "isExtraImport": true,
-        "detail": "django.contrib",
-        "documentation": {}
-    },
-    {
-        "label": "admin",
         "importPath": "django.contrib",
         "description": "django.contrib",
         "isExtraImport": true,
@@ -359,55 +375,6 @@
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "get_asgi_application",
-        "importPath": "django.core.asgi",
-        "description": "django.core.asgi",
-        "isExtraImport": true,
-        "detail": "django.core.asgi",
-        "documentation": {}
-    },
-    {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "get_wsgi_application",
-        "importPath": "django.core.wsgi",
-        "description": "django.core.wsgi",
-        "isExtraImport": true,
-        "detail": "django.core.wsgi",
-        "documentation": {}
-    },
-    {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
         "label": "setup",
         "importPath": "setuptools",
         "description": "setuptools",
@@ -429,6 +396,24 @@
         "description": "io",
         "isExtraImport": true,
         "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "Carrier",
+        "kind": 6,
+        "importPath": "blog.models.Carrier",
+        "description": "blog.models.Carrier",
+        "peekOfCode": "class Carrier(models.Model):\n    name = models.CharField(blank=True, null=True)\n    description = models.CharField(blank=True, null=True)\n    updated_at = models.DateTimeField(auto_now=True)\n    created_at = models.DateTimeField(auto_now_add=True)",
+        "detail": "blog.models.Carrier",
+        "documentation": {}
+    },
+    {
+        "label": "Post",
+        "kind": 6,
+        "importPath": "blog.models.Post",
+        "description": "blog.models.Post",
+        "peekOfCode": "class Post(models.Model):\n    name = models.CharField(blank=True, null=True)\n    updated_at = models.DateTimeField(auto_now=True)\n    created_at = models.DateTimeField(auto_now_add=True)",
+        "detail": "blog.models.Post",
         "documentation": {}
     },
     {
@@ -1026,240 +1011,6 @@
         "documentation": {}
     },
     {
-        "label": "application",
-        "kind": 5,
-        "importPath": "cart.config.asgi",
-        "description": "cart.config.asgi",
-        "peekOfCode": "application = get_asgi_application()",
-        "detail": "cart.config.asgi",
-        "documentation": {}
-    },
-    {
-        "label": "BASE_DIR",
-        "kind": 5,
-        "importPath": "cart.config.settings",
-        "description": "cart.config.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure--8ovp+v#fts1@s%td$jpvdcwv#a&4&*yqvf%4muc!ik#eaj_m&'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
-        "detail": "cart.config.settings",
-        "documentation": {}
-    },
-    {
-        "label": "SECRET_KEY",
-        "kind": 5,
-        "importPath": "cart.config.settings",
-        "description": "cart.config.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure--8ovp+v#fts1@s%td$jpvdcwv#a&4&*yqvf%4muc!ik#eaj_m&'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
-        "detail": "cart.config.settings",
-        "documentation": {}
-    },
-    {
-        "label": "DEBUG",
-        "kind": 5,
-        "importPath": "cart.config.settings",
-        "description": "cart.config.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
-        "detail": "cart.config.settings",
-        "documentation": {}
-    },
-    {
-        "label": "ALLOWED_HOSTS",
-        "kind": 5,
-        "importPath": "cart.config.settings",
-        "description": "cart.config.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]",
-        "detail": "cart.config.settings",
-        "documentation": {}
-    },
-    {
-        "label": "INSTALLED_APPS",
-        "kind": 5,
-        "importPath": "cart.config.settings",
-        "description": "cart.config.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',",
-        "detail": "cart.config.settings",
-        "documentation": {}
-    },
-    {
-        "label": "MIDDLEWARE",
-        "kind": 5,
-        "importPath": "cart.config.settings",
-        "description": "cart.config.settings",
-        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'config.urls'",
-        "detail": "cart.config.settings",
-        "documentation": {}
-    },
-    {
-        "label": "ROOT_URLCONF",
-        "kind": 5,
-        "importPath": "cart.config.settings",
-        "description": "cart.config.settings",
-        "peekOfCode": "ROOT_URLCONF = 'config.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
-        "detail": "cart.config.settings",
-        "documentation": {}
-    },
-    {
-        "label": "TEMPLATES",
-        "kind": 5,
-        "importPath": "cart.config.settings",
-        "description": "cart.config.settings",
-        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
-        "detail": "cart.config.settings",
-        "documentation": {}
-    },
-    {
-        "label": "WSGI_APPLICATION",
-        "kind": 5,
-        "importPath": "cart.config.settings",
-        "description": "cart.config.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'config.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
-        "detail": "cart.config.settings",
-        "documentation": {}
-    },
-    {
-        "label": "DATABASES",
-        "kind": 5,
-        "importPath": "cart.config.settings",
-        "description": "cart.config.settings",
-        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
-        "detail": "cart.config.settings",
-        "documentation": {}
-    },
-    {
-        "label": "AUTH_PASSWORD_VALIDATORS",
-        "kind": 5,
-        "importPath": "cart.config.settings",
-        "description": "cart.config.settings",
-        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
-        "detail": "cart.config.settings",
-        "documentation": {}
-    },
-    {
-        "label": "LANGUAGE_CODE",
-        "kind": 5,
-        "importPath": "cart.config.settings",
-        "description": "cart.config.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
-        "detail": "cart.config.settings",
-        "documentation": {}
-    },
-    {
-        "label": "TIME_ZONE",
-        "kind": 5,
-        "importPath": "cart.config.settings",
-        "description": "cart.config.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Added by script",
-        "detail": "cart.config.settings",
-        "documentation": {}
-    },
-    {
-        "label": "USE_I18N",
-        "kind": 5,
-        "importPath": "cart.config.settings",
-        "description": "cart.config.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Added by script\nSTATIC_URL = '/static/'",
-        "detail": "cart.config.settings",
-        "documentation": {}
-    },
-    {
-        "label": "USE_TZ",
-        "kind": 5,
-        "importPath": "cart.config.settings",
-        "description": "cart.config.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Added by script\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [BASE_DIR / 'static']",
-        "detail": "cart.config.settings",
-        "documentation": {}
-    },
-    {
-        "label": "STATIC_URL",
-        "kind": 5,
-        "importPath": "cart.config.settings",
-        "description": "cart.config.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Added by script\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [BASE_DIR / 'static']\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'",
-        "detail": "cart.config.settings",
-        "documentation": {}
-    },
-    {
-        "label": "DEFAULT_AUTO_FIELD",
-        "kind": 5,
-        "importPath": "cart.config.settings",
-        "description": "cart.config.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Added by script\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [BASE_DIR / 'static']\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'",
-        "detail": "cart.config.settings",
-        "documentation": {}
-    },
-    {
-        "label": "STATIC_URL",
-        "kind": 5,
-        "importPath": "cart.config.settings",
-        "description": "cart.config.settings",
-        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = [BASE_DIR / 'static']\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'",
-        "detail": "cart.config.settings",
-        "documentation": {}
-    },
-    {
-        "label": "STATICFILES_DIRS",
-        "kind": 5,
-        "importPath": "cart.config.settings",
-        "description": "cart.config.settings",
-        "peekOfCode": "STATICFILES_DIRS = [BASE_DIR / 'static']\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'",
-        "detail": "cart.config.settings",
-        "documentation": {}
-    },
-    {
-        "label": "MEDIA_URL",
-        "kind": 5,
-        "importPath": "cart.config.settings",
-        "description": "cart.config.settings",
-        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'",
-        "detail": "cart.config.settings",
-        "documentation": {}
-    },
-    {
-        "label": "MEDIA_ROOT",
-        "kind": 5,
-        "importPath": "cart.config.settings",
-        "description": "cart.config.settings",
-        "peekOfCode": "MEDIA_ROOT = BASE_DIR / 'media'",
-        "detail": "cart.config.settings",
-        "documentation": {}
-    },
-    {
-        "label": "urlpatterns",
-        "kind": 5,
-        "importPath": "cart.config.urls",
-        "description": "cart.config.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n]",
-        "detail": "cart.config.urls",
-        "documentation": {}
-    },
-    {
-        "label": "application",
-        "kind": 5,
-        "importPath": "cart.config.wsgi",
-        "description": "cart.config.wsgi",
-        "peekOfCode": "application = get_wsgi_application()",
-        "detail": "cart.config.wsgi",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": "cart.manage",
-        "description": "cart.manage",
-        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
-        "detail": "cart.manage",
-        "documentation": {}
-    },
-    {
-        "label": "print_yellow",
-        "kind": 2,
-        "importPath": "package.create_django_project",
-        "description": "package.create_django_project",
-        "peekOfCode": "def print_yellow(text):\n    print(text)\ndef check_django_installation():\n    try:\n        # Vérifier l'installation de Django en tentant d'importer le module\n        import django\n        return True\n    except ImportError:\n        return False\ndef install_django():",
-        "detail": "package.create_django_project",
-        "documentation": {}
-    },
-    {
         "label": "check_django_installation",
         "kind": 2,
         "importPath": "package.create_django_project",
@@ -1273,7 +1024,7 @@
         "kind": 2,
         "importPath": "package.create_django_project",
         "description": "package.create_django_project",
-        "peekOfCode": "def install_django():\n    try:\n        subprocess.run([\"pip\", \"install\", \"django\"], check=True)\n        return True\n    except subprocess.CalledProcessError:\n        return False\ndef create_django_project(project_name):\n    # Vérifier si Django est installé, sinon l'installer\n    if not check_django_installation():\n        print_yellow(\"Django not found. Installing Django...\")",
+        "peekOfCode": "def install_django():\n    try:\n        subprocess.run([\"pip\", \"install\", \"django\"], check=True)\n        return True\n    except subprocess.CalledProcessError:\n        return False\ndef create_django_project(project_name):\n    # Vérifier si Django est installé, sinon l'installer\n    if not check_django_installation():\n        print(\"Django not found. Installing Django...\")",
         "detail": "package.create_django_project",
         "documentation": {}
     },
@@ -1282,7 +1033,7 @@
         "kind": 2,
         "importPath": "package.create_django_project",
         "description": "package.create_django_project",
-        "peekOfCode": "def create_django_project(project_name):\n    # Vérifier si Django est installé, sinon l'installer\n    if not check_django_installation():\n        print_yellow(\"Django not found. Installing Django...\")\n        if not install_django():\n            print_yellow(\"Failed to install Django. Aborting project creation.\")\n            return\n    try:\n        # Création du répertoire pour le projet\n        project_dir = Path.cwd() / project_name",
+        "peekOfCode": "def create_django_project(project_name):\n    # Vérifier si Django est installé, sinon l'installer\n    if not check_django_installation():\n        print(\"Django not found. Installing Django...\")\n        if not install_django():\n            print(\"Failed to install Django. Aborting project creation.\")\n            return\n    try:\n        # Création du répertoire pour le projet\n        project_dir = Path.cwd() / project_name",
         "detail": "package.create_django_project",
         "documentation": {}
     },
@@ -1328,15 +1079,6 @@
         "importPath": "package.ecommerce_generator",
         "description": "package.ecommerce_generator",
         "peekOfCode": "class StripeService:\n    def __init__(self):\n        # Vérifie si la méthode Stripe est disponible\n        self.method = Method.objects.filter(name='Stripe').first()\n    # Implémentez ici la logique de votre service\n    def get_public_key(self):\n        if self.method:\n            return self.method.prod_public_key if settings.DEBUG else self.method.test_public_key\n        return None  # Gérer le cas où la méthode n'est pas trouvée en base de données\n    def get_private_key(self):",
-        "detail": "package.ecommerce_generator",
-        "documentation": {}
-    },
-    {
-        "label": "print_yellow",
-        "kind": 2,
-        "importPath": "package.ecommerce_generator",
-        "description": "package.ecommerce_generator",
-        "peekOfCode": "def print_yellow(text):\n    print(text)\ndef getCart(app_name):\n    return '''\nfrom django.contrib import messages\nfrom '''+app_name+'''.models import Carrier, Setting, Product  # Importez vos modèles ici\nclass CartService:\n    @staticmethod\n    def add_to_cart(request, product_id, quantity):\n        cart = request.session.get('cart', {})",
         "detail": "package.ecommerce_generator",
         "documentation": {}
     },
@@ -1395,15 +1137,6 @@
         "documentation": {}
     },
     {
-        "label": "print_yellow",
-        "kind": 2,
-        "importPath": "package.form_generator",
-        "description": "package.form_generator",
-        "peekOfCode": "def print_yellow(text):\n    print(text)\nfield_widgets = {\n    'DateField': \"forms.DateInput(attrs={'class': 'form-control datepicker'})\",\n    'DateTimeField': \"forms.DateTimeInput(attrs={'class': 'form-control datetimepicker'})\",\n    'CharField': \"forms.TextInput(attrs={'class': 'form-control custom-text-input'})\",\n    'EmailField': \"forms.EmailInput(attrs={'class': 'form-control custom-email-input'})\",\n    'BooleanField': \"forms.CheckboxInput(attrs={'class': 'form-control custom-checkbox'})\",\n    'IntegerField': \"forms.NumberInput(attrs={'class': 'form-control custom-number-input'})\",\n    'FloatField': \"forms.NumberInput(attrs={'class': 'form-control custom-float-input'})\",",
-        "detail": "package.form_generator",
-        "documentation": {}
-    },
-    {
         "label": "parse_model_fields",
         "kind": 2,
         "importPath": "package.form_generator",
@@ -1431,20 +1164,11 @@
         "documentation": {}
     },
     {
-        "label": "print_yellow",
-        "kind": 2,
-        "importPath": "package.generate_django_app",
-        "description": "package.generate_django_app",
-        "peekOfCode": "def print_yellow(text):\n    print(text)\ndef generate_django_app(app_name):\n    try:\n        # Créer l'application Django en utilisant django-admin\n        subprocess.run([\"django-admin\", \"startapp\", app_name], check=True)\n        print_yellow(f\"Django app '{app_name}' created successfully!\")\n        # Supprimer le fichier models.py\n        models_file = Path.cwd() / app_name / \"models.py\"\n        models_file.unlink()",
-        "detail": "package.generate_django_app",
-        "documentation": {}
-    },
-    {
         "label": "generate_django_app",
         "kind": 2,
         "importPath": "package.generate_django_app",
         "description": "package.generate_django_app",
-        "peekOfCode": "def generate_django_app(app_name):\n    try:\n        # Créer l'application Django en utilisant django-admin\n        subprocess.run([\"django-admin\", \"startapp\", app_name], check=True)\n        print_yellow(f\"Django app '{app_name}' created successfully!\")\n        # Supprimer le fichier models.py\n        models_file = Path.cwd() / app_name / \"models.py\"\n        models_file.unlink()\n        views_file = Path.cwd() / app_name / \"views.py\"\n        views_file.unlink()",
+        "peekOfCode": "def generate_django_app(app_name):\n    try:\n        # Créer l'application Django en utilisant django-admin\n        subprocess.run([\"django-admin\", \"startapp\", app_name], check=True)\n        print(f\"Django app '{app_name}' created successfully!\")\n        # Supprimer le fichier models.py\n        models_file = Path.cwd() / app_name / \"models.py\"\n        models_file.unlink()\n        views_file = Path.cwd() / app_name / \"views.py\"\n        views_file.unlink()",
         "detail": "package.generate_django_app",
         "documentation": {}
     },
@@ -1503,15 +1227,6 @@
         "documentation": {}
     },
     {
-        "label": "print_yellow",
-        "kind": 2,
-        "importPath": "package.model_generator",
-        "description": "package.model_generator",
-        "peekOfCode": "def print_yellow(text):\n    print(text)\n# Dictionnaire des types de champs Django correspondant aux choix possibles\nfield_choices = {\n    \"string\": 'models.CharField',\n    \"integer\": 'models.IntegerField',\n    \"text\": 'models.TextField',\n    \"boolean\": \"models.BooleanField\",\n    \"date\": \"models.DateField\",\n    \"datetime\": \"models.DateTimeField\",",
-        "detail": "package.model_generator",
-        "documentation": {}
-    },
-    {
         "label": "is_valid_model_name",
         "kind": 2,
         "importPath": "package.model_generator",
@@ -1534,7 +1249,7 @@
         "kind": 2,
         "importPath": "package.model_generator",
         "description": "package.model_generator",
-        "peekOfCode": "def generate_model(app_name, model_name = False):\n    # model_name = \"\"\n    # print_yellow(\"===================   {app_name} : {model_name}   ===================\")\n    fields = [('updated_at', 'models.DateTimeField(auto_now=True)', {}),\n              ('created_at', 'models.DateTimeField(auto_now_add=True)', {})]\n    if not model_name:\n        while True:\n            model_name = questionary.text(\"Nom du modèle :\").ask().strip()\n            if not model_name:\n                print_yellow(\"Le nom du modèle ne peut pas être vide. Veuillez saisir un nom valide.\")",
+        "peekOfCode": "def generate_model(app_name, model_name = False):\n    # model_name = \"\"\n    # print(\"===================   {app_name} : {model_name}   ===================\")\n    fields = [('updated_at', 'models.DateTimeField(auto_now=True)', {}),\n              ('created_at', 'models.DateTimeField(auto_now_add=True)', {})]\n    if not model_name:\n        while True:\n            model_name = questionary.text(\"Nom du modèle :\").ask().strip()\n            if not model_name:\n                print(\"Le nom du modèle ne peut pas être vide. Veuillez saisir un nom valide.\")",
         "detail": "package.model_generator",
         "documentation": {}
     },
@@ -1557,20 +1272,11 @@
         "documentation": {}
     },
     {
-        "label": "print_yellow",
-        "kind": 2,
-        "importPath": "package.module",
-        "description": "package.module",
-        "peekOfCode": "def print_yellow(text):\n    print(text)\n# The directory containing this file\nBASE_DIR = pathlib.Path(__file__).parent.parent\ndef start(file_path, args):\n    subprocess.run([\"python\", Path(BASE_DIR / file_path ), args.app_name, args.model_name])\ndef make_project(args):\n    print_yellow(f\"Executing create:project command for {args.project_name}\")\n    # generate_entity()\n    subprocess.run([\"python\", ",
-        "detail": "package.module",
-        "documentation": {}
-    },
-    {
         "label": "start",
         "kind": 2,
         "importPath": "package.module",
         "description": "package.module",
-        "peekOfCode": "def start(file_path, args):\n    subprocess.run([\"python\", Path(BASE_DIR / file_path ), args.app_name, args.model_name])\ndef make_project(args):\n    print_yellow(f\"Executing create:project command for {args.project_name}\")\n    # generate_entity()\n    subprocess.run([\"python\", \n                    Path(BASE_DIR / \"package/create_django_project.py\" ), \n                    args.project_name])\ndef make_app(args):\n    print_yellow(f\"Executing create:app command for app: {args.app_name}.\")",
+        "peekOfCode": "def start(file_path, args):\n    subprocess.run([\"python\", Path(BASE_DIR / file_path ), args.app_name, args.model_name])\ndef make_project(args):\n    print(f\"Executing create:project command for {args.project_name}\")\n    # generate_entity()\n    subprocess.run([\"python\", \n                    Path(BASE_DIR / \"package/create_django_project.py\" ), \n                    args.project_name])\ndef make_app(args):\n    print(f\"Executing create:app command for app: {args.app_name}.\")",
         "detail": "package.module",
         "documentation": {}
     },
@@ -1579,7 +1285,7 @@
         "kind": 2,
         "importPath": "package.module",
         "description": "package.module",
-        "peekOfCode": "def make_project(args):\n    print_yellow(f\"Executing create:project command for {args.project_name}\")\n    # generate_entity()\n    subprocess.run([\"python\", \n                    Path(BASE_DIR / \"package/create_django_project.py\" ), \n                    args.project_name])\ndef make_app(args):\n    print_yellow(f\"Executing create:app command for app: {args.app_name}.\")\n    # generate_entity()\n    subprocess.run([\"python\", ",
+        "peekOfCode": "def make_project(args):\n    print(f\"Executing create:project command for {args.project_name}\")\n    # generate_entity()\n    subprocess.run([\"python\", \n                    Path(BASE_DIR / \"package/create_django_project.py\" ), \n                    args.project_name])\ndef make_app(args):\n    print(f\"Executing create:app command for app: {args.app_name}.\")\n    # generate_entity()\n    subprocess.run([\"python\", ",
         "detail": "package.module",
         "documentation": {}
     },
@@ -1588,7 +1294,7 @@
         "kind": 2,
         "importPath": "package.module",
         "description": "package.module",
-        "peekOfCode": "def make_app(args):\n    print_yellow(f\"Executing create:app command for app: {args.app_name}.\")\n    # generate_entity()\n    subprocess.run([\"python\", \n                    Path(BASE_DIR / \"package/generate_django_app.py\" ), \n                    args.app_name])\ndef make_entity(args):\n    print_yellow(f\"Executing make:entity command for app: {args.app_name} and model: {args.model_name}.\")\n    # generate_entity()\n    start(\"package/model_generator.py\", args)",
+        "peekOfCode": "def make_app(args):\n    print(f\"Executing create:app command for app: {args.app_name}.\")\n    # generate_entity()\n    subprocess.run([\"python\", \n                    Path(BASE_DIR / \"package/generate_django_app.py\" ), \n                    args.app_name])\ndef make_entity(args):\n    print(f\"Executing make:entity command for app: {args.app_name} and model: {args.model_name}.\")\n    # generate_entity()\n    start(\"package/model_generator.py\", args)",
         "detail": "package.module",
         "documentation": {}
     },
@@ -1597,7 +1303,7 @@
         "kind": 2,
         "importPath": "package.module",
         "description": "package.module",
-        "peekOfCode": "def make_entity(args):\n    print_yellow(f\"Executing make:entity command for app: {args.app_name} and model: {args.model_name}.\")\n    # generate_entity()\n    start(\"package/model_generator.py\", args)\n    start(\"package/view_generator.py\", args)\n    start(\"package/template_generator.py\", args)\ndef make_form(args):\n    print_yellow(f\"Executing make:form command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/form_generator.py\", args)\ndef make_view(args):",
+        "peekOfCode": "def make_entity(args):\n    print(f\"Executing make:entity command for app: {args.app_name} and model: {args.model_name}.\")\n    # generate_entity()\n    start(\"package/model_generator.py\", args)\n    start(\"package/view_generator.py\", args)\n    start(\"package/template_generator.py\", args)\ndef make_form(args):\n    print(f\"Executing make:form command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/form_generator.py\", args)\ndef make_view(args):",
         "detail": "package.module",
         "documentation": {}
     },
@@ -1606,7 +1312,7 @@
         "kind": 2,
         "importPath": "package.module",
         "description": "package.module",
-        "peekOfCode": "def make_form(args):\n    print_yellow(f\"Executing make:form command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/form_generator.py\", args)\ndef make_view(args):\n    print_yellow(f\"Executing make:view command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/view_generator.py\", args)\n    start(\"package/template_generator.py\", args)\ndef make_model(args):\n    print_yellow(f\"Executing make:model command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/model_generator.py\", args)",
+        "peekOfCode": "def make_form(args):\n    print(f\"Executing make:form command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/form_generator.py\", args)\ndef make_view(args):\n    print(f\"Executing make:view command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/view_generator.py\", args)\n    start(\"package/template_generator.py\", args)\ndef make_model(args):\n    print(f\"Executing make:model command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/model_generator.py\", args)",
         "detail": "package.module",
         "documentation": {}
     },
@@ -1615,7 +1321,7 @@
         "kind": 2,
         "importPath": "package.module",
         "description": "package.module",
-        "peekOfCode": "def make_view(args):\n    print_yellow(f\"Executing make:view command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/view_generator.py\", args)\n    start(\"package/template_generator.py\", args)\ndef make_model(args):\n    print_yellow(f\"Executing make:model command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/model_generator.py\", args)\ndef make_entity_crud(args):\n    print_yellow(f\"Executing make:crud command for app: {args.app_name} and model: {args.model_name}.\")\n    start(\"package/from_generator.py\", args)",
+        "peekOfCode": "def make_view(args):\n    print(f\"Executing make:view command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/view_generator.py\", args)\n    start(\"package/template_generator.py\", args)\ndef make_model(args):\n    print(f\"Executing make:model command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/model_generator.py\", args)\ndef make_entity_crud(args):\n    print(f\"Executing make:crud command for app: {args.app_name} and model: {args.model_name}.\")\n    start(\"package/from_generator.py\", args)",
         "detail": "package.module",
         "documentation": {}
     },
@@ -1624,7 +1330,7 @@
         "kind": 2,
         "importPath": "package.module",
         "description": "package.module",
-        "peekOfCode": "def make_model(args):\n    print_yellow(f\"Executing make:model command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/model_generator.py\", args)\ndef make_entity_crud(args):\n    print_yellow(f\"Executing make:crud command for app: {args.app_name} and model: {args.model_name}.\")\n    start(\"package/from_generator.py\", args)\n    start(\"package/view_generator.py\", args)\n    start(\"package/template_generator.py\", args)\ndef make_service(args):\n    print_yellow(f\"Executing make:service command for app: {args.app_name} and service: {args.service_name}.\")",
+        "peekOfCode": "def make_model(args):\n    print(f\"Executing make:model command for app: {args.app_name} and model: {args.model_name}\")\n    start(\"package/model_generator.py\", args)\ndef make_entity_crud(args):\n    print(f\"Executing make:crud command for app: {args.app_name} and model: {args.model_name}.\")\n    start(\"package/from_generator.py\", args)\n    start(\"package/view_generator.py\", args)\n    start(\"package/template_generator.py\", args)\ndef make_service(args):\n    print(f\"Executing make:service command for app: {args.app_name} and service: {args.service_name}.\")",
         "detail": "package.module",
         "documentation": {}
     },
@@ -1633,7 +1339,7 @@
         "kind": 2,
         "importPath": "package.module",
         "description": "package.module",
-        "peekOfCode": "def make_entity_crud(args):\n    print_yellow(f\"Executing make:crud command for app: {args.app_name} and model: {args.model_name}.\")\n    start(\"package/from_generator.py\", args)\n    start(\"package/view_generator.py\", args)\n    start(\"package/template_generator.py\", args)\ndef make_service(args):\n    print_yellow(f\"Executing make:service command for app: {args.app_name} and service: {args.service_name}.\")\n    subprocess.run([\"python\", \n                    Path(BASE_DIR / \"package/ecommerce_generator.py\" ), \n                    args.app_name, args.service_name])",
+        "peekOfCode": "def make_entity_crud(args):\n    print(f\"Executing make:crud command for app: {args.app_name} and model: {args.model_name}.\")\n    start(\"package/from_generator.py\", args)\n    start(\"package/view_generator.py\", args)\n    start(\"package/template_generator.py\", args)\ndef make_service(args):\n    print(f\"Executing make:service command for app: {args.app_name} and service: {args.service_name}.\")\n    subprocess.run([\"python\", \n                    Path(BASE_DIR / \"package/ecommerce_generator.py\" ), \n                    args.app_name, args.service_name])",
         "detail": "package.module",
         "documentation": {}
     },
@@ -1642,7 +1348,7 @@
         "kind": 2,
         "importPath": "package.module",
         "description": "package.module",
-        "peekOfCode": "def make_service(args):\n    print_yellow(f\"Executing make:service command for app: {args.app_name} and service: {args.service_name}.\")\n    subprocess.run([\"python\", \n                    Path(BASE_DIR / \"package/ecommerce_generator.py\" ), \n                    args.app_name, args.service_name])\ndef main():\n    parser = argparse.ArgumentParser(description=\"Custom CLI for performing tasks\")\n    subparsers = parser.add_subparsers()\n    entity_parser = subparsers.add_parser(\"create:project\", help=\"Create an django project\")\n    entity_parser.add_argument(\"project_name\", help=\"Name of the project\")",
+        "peekOfCode": "def make_service(args):\n    print(f\"Executing make:service command for app: {args.app_name} and service: {args.service_name}.\")\n    subprocess.run([\"python\", \n                    Path(BASE_DIR / \"package/ecommerce_generator.py\" ), \n                    args.app_name, args.service_name])\ndef main():\n    parser = argparse.ArgumentParser(description=\"Custom CLI for performing tasks\")\n    subparsers = parser.add_subparsers()\n    entity_parser = subparsers.add_parser(\"create:project\", help=\"Create an django project\")\n    entity_parser.add_argument(\"project_name\", help=\"Name of the project\")",
         "detail": "package.module",
         "documentation": {}
     },
@@ -1660,17 +1366,8 @@
         "kind": 5,
         "importPath": "package.module",
         "description": "package.module",
-        "peekOfCode": "BASE_DIR = pathlib.Path(__file__).parent.parent\ndef start(file_path, args):\n    subprocess.run([\"python\", Path(BASE_DIR / file_path ), args.app_name, args.model_name])\ndef make_project(args):\n    print_yellow(f\"Executing create:project command for {args.project_name}\")\n    # generate_entity()\n    subprocess.run([\"python\", \n                    Path(BASE_DIR / \"package/create_django_project.py\" ), \n                    args.project_name])\ndef make_app(args):",
+        "peekOfCode": "BASE_DIR = pathlib.Path(__file__).parent.parent\ndef start(file_path, args):\n    subprocess.run([\"python\", Path(BASE_DIR / file_path ), args.app_name, args.model_name])\ndef make_project(args):\n    print(f\"Executing create:project command for {args.project_name}\")\n    # generate_entity()\n    subprocess.run([\"python\", \n                    Path(BASE_DIR / \"package/create_django_project.py\" ), \n                    args.project_name])\ndef make_app(args):",
         "detail": "package.module",
-        "documentation": {}
-    },
-    {
-        "label": "print_yellow",
-        "kind": 2,
-        "importPath": "package.template_generator",
-        "description": "package.template_generator",
-        "peekOfCode": "def print_yellow(text):\n    print(text)\nfield_widgets = {\n    'DateField': \"forms.DateInput(attrs={'class': 'form-control datepicker'})\",\n    'DateTimeField': \"forms.DateTimeInput(attrs={'class': 'form-control datetimepicker'})\",\n    'CharField': \"forms.TextInput(attrs={'class': 'form-control custom-text-input'})\",\n    'EmailField': \"forms.EmailInput(attrs={'class': 'form-control custom-email-input'})\",\n    'BooleanField': \"forms.CheckboxInput(attrs={'class': 'form-control custom-checkbox'})\",\n    'IntegerField': \"forms.NumberInput(attrs={'class': 'form-control custom-number-input'})\",\n    'FloatField': \"forms.NumberInput(attrs={'class': 'form-control custom-float-input'})\",",
-        "detail": "package.template_generator",
         "documentation": {}
     },
     {
@@ -1696,7 +1393,7 @@
         "kind": 2,
         "importPath": "package.template_generator",
         "description": "package.template_generator",
-        "peekOfCode": "def copy_file(source_file, destination_file):\n    try:\n        with open(source_file, 'r') as source:\n            with open(destination_file, 'w') as destination:\n                content = source.read()\n                destination.write(content)\n        print_yellow(f\"File copied from '{source_file}' to '{destination_file}' successfully.\")\n    except FileNotFoundError:\n        print_yellow(\"File not found. Please provide valid file names.\")\ndef parse_model_fields(file_path):",
+        "peekOfCode": "def copy_file(source_file, destination_file):\n    try:\n        with open(source_file, 'r') as source:\n            with open(destination_file, 'w') as destination:\n                content = source.read()\n                destination.write(content)\n        print(f\"File copied from '{source_file}' to '{destination_file}' successfully.\")\n    except FileNotFoundError:\n        print(\"File not found. Please provide valid file names.\")\ndef parse_model_fields(file_path):",
         "detail": "package.template_generator",
         "documentation": {}
     },
@@ -1782,15 +1479,6 @@
         "documentation": {}
     },
     {
-        "label": "print_yellow",
-        "kind": 2,
-        "importPath": "package.view_generator",
-        "description": "package.view_generator",
-        "peekOfCode": "def print_yellow(text):\n    print(text)\nfield_widgets = {\n    'DateField': \"forms.DateInput(attrs={'class': 'form-control datepicker'})\",\n    'DateTimeField': \"forms.DateTimeInput(attrs={'class': 'form-control datetimepicker'})\",\n    'CharField': \"forms.TextInput(attrs={'class': 'form-control custom-text-input'})\",\n    'EmailField': \"forms.EmailInput(attrs={'class': 'form-control custom-email-input'})\",\n    'BooleanField': \"forms.CheckboxInput(attrs={'class': 'form-control custom-checkbox'})\",\n    'IntegerField': \"forms.NumberInput(attrs={'class': 'form-control custom-number-input'})\",\n    'FloatField': \"forms.NumberInput(attrs={'class': 'form-control custom-float-input'})\",",
-        "detail": "package.view_generator",
-        "documentation": {}
-    },
-    {
         "label": "get_plural",
         "kind": 2,
         "importPath": "package.view_generator",
@@ -1813,7 +1501,7 @@
         "kind": 2,
         "importPath": "package.view_generator",
         "description": "package.view_generator",
-        "peekOfCode": "def copy_file(source_file, destination_file):\n    try:\n        with open(source_file, 'r') as source:\n            with open(destination_file, 'w') as destination:\n                content = source.read()\n                destination.write(content)\n        print_yellow(f\"File copied from '{source_file}' to '{destination_file}' successfully.\")\n    except FileNotFoundError:\n        print_yellow(\"File not found. Please provide valid file names.\")\ndef parse_model_fields(file_path):",
+        "peekOfCode": "def copy_file(source_file, destination_file):\n    try:\n        with open(source_file, 'r') as source:\n            with open(destination_file, 'w') as destination:\n                content = source.read()\n                destination.write(content)\n        print(f\"File copied from '{source_file}' to '{destination_file}' successfully.\")\n    except FileNotFoundError:\n        print(\"File not found. Please provide valid file names.\")\ndef parse_model_fields(file_path):",
         "detail": "package.view_generator",
         "documentation": {}
     },
