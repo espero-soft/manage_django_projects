@@ -1465,7 +1465,7 @@
         "kind": 5,
         "importPath": "setup",
         "description": "setup",
-        "peekOfCode": "HERE = pathlib.Path(__file__).parent\n# The text of the README file\nREADME = (HERE / \"README.md\").read_text()\nsetup(\n    name='mudey-django',\n    version='1.6',\n    packages=find_packages(),\n    description='CLI Django',\n    author='Espero-Soft Informatiques',\n    author_email='contact@espero-soft.com',",
+        "peekOfCode": "HERE = pathlib.Path(__file__).parent\n# The text of the README file\nREADME = (HERE / \"README.md\").read_text()\nsetup(\n    name='mudey-django',\n    version='1.7',\n    packages=find_packages(),\n    description='CLI Django',\n    author='Espero-Soft Informatiques',\n    author_email='contact@espero-soft.com',",
         "detail": "setup",
         "documentation": {}
     },
@@ -1474,7 +1474,7 @@
         "kind": 5,
         "importPath": "setup",
         "description": "setup",
-        "peekOfCode": "README = (HERE / \"README.md\").read_text()\nsetup(\n    name='mudey-django',\n    version='1.6',\n    packages=find_packages(),\n    description='CLI Django',\n    author='Espero-Soft Informatiques',\n    author_email='contact@espero-soft.com',\n    long_description=README,\n    long_description_content_type='text/markdown',",
+        "peekOfCode": "README = (HERE / \"README.md\").read_text()\nsetup(\n    name='mudey-django',\n    version='1.7',\n    packages=find_packages(),\n    description='CLI Django',\n    author='Espero-Soft Informatiques',\n    author_email='contact@espero-soft.com',\n    long_description=README,\n    long_description_content_type='text/markdown',",
         "detail": "setup",
         "documentation": {}
     }
