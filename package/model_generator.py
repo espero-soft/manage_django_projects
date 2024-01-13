@@ -4,11 +4,10 @@ import questionary
 from django.db import models
 from pathlib import Path
 import re
-from colorama import Fore, Style
 
 
 def print_yellow(text):
-    print(Fore.YELLOW + text + Style.RESET_ALL)
+    print(text)
 
 # Dictionnaire des types de champs Django correspondant aux choix possibles
 field_choices = {

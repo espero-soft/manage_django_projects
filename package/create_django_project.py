@@ -1,11 +1,10 @@
 import argparse
 import subprocess
 from pathlib import Path
-from colorama import Fore, Style
 
 
 def print_yellow(text):
-    print(Fore.YELLOW + text + Style.RESET_ALL)
+    print(text)
 
 def check_django_installation():
     try:

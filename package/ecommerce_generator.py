@@ -2,12 +2,11 @@ import argparse
 import subprocess
 from pathlib import Path
 import os
-from colorama import Fore, Style
 
 
 
 def print_yellow(text):
-    print(Fore.YELLOW + text + Style.RESET_ALL)
+    print(text)
 
 def getCart(app_name):
     return '''

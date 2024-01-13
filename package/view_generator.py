@@ -2,11 +2,10 @@ import argparse
 from pathlib import Path
 import inflect
 import re
-from colorama import Fore, Style
 
 
 def print_yellow(text):
-    print(Fore.YELLOW + text + Style.RESET_ALL)
+    print(text)
 
 
 field_widgets = {

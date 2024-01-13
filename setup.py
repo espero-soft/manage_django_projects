@@ -14,7 +14,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name='mudey-django',
-    version='1.4',
+    version='1.5',
     packages=find_packages(),
     description='CLI Django',
     author='Espero-Soft Informatiques',
